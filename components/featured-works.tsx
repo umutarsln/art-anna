@@ -1,34 +1,18 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { ChevronLeft, ChevronRight, ExternalLink, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { getFeaturedArtworks, type Artwork } from "@/lib/supabase"
+import { galleryImages, type GalleryImage } from "@/lib/gallery-images"
 import { useLanguageStore } from "@/lib/store"
-import { useLanguage } from "@/contexts/language-context"
 
 export function FeaturedWorks() {
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [artworks, setArtworks] = useState<Artwork[]>([])
-  const [loading, setLoading] = useState(true)
+  const [artworks] = useState<GalleryImage[]>(galleryImages.slice(0, 3)) // İlk 3 eseri öne çıkan olarak göster
   const { t } = useLanguageStore()
-
-  useEffect(() => {
-    async function loadArtworks() {
-      try {
-        const data = await getFeaturedArtworks()
-        setArtworks(data)
-      } catch (error) {
-        console.error("Error loading artworks:", error)
-      } finally {
-        setLoading(false)
-      }
-    }
-    loadArtworks()
-  }, [])
 
   const nextSlide = () => {
     setCurrentIndex((prev) => (prev + 1) % artworks.length)
@@ -41,27 +25,18 @@ export function FeaturedWorks() {
   const getCategoryName = (category: string) => {
     switch (category) {
       case "digital":
-        return t("gallery.filters.digital")
+        return t("gallery.categories.digital")
       case "photography":
-        return t("gallery.filters.photography")
+        return t("gallery.categories.photography")
+      case "painting":
+        return t("gallery.categories.painting") || "Resim"
+      case "sculpture":
+        return t("gallery.categories.sculpture") || "Heykel"
       case "mixed":
         return t("gallery.filters.mixed")
       default:
         return category
     }
-  }
-
-  if (loading) {
-    return (
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="animate-pulse">
-            <div className="h-8 bg-gray-200 rounded w-64 mx-auto mb-4"></div>
-            <div className="h-4 bg-gray-200 rounded w-96 mx-auto"></div>
-          </div>
-        </div>
-      </section>
-    )
   }
 
   if (artworks.length === 0) {

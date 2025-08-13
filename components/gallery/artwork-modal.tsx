@@ -7,10 +7,10 @@ import { X, Eye, Image as ImageIcon } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { FluidGlass } from "@/components/ui/fluid-glass"
 import { useLanguageStore } from "@/lib/store"
-import type { Artwork } from "@/lib/supabase"
+import type { GalleryImage } from "@/lib/gallery-images"
 
 interface ArtworkModalProps {
-  artwork: Artwork | null
+  artwork: GalleryImage | null
   onClose: () => void
 }
 
@@ -20,6 +20,22 @@ export function ArtworkModal({ artwork, onClose }: ArtworkModalProps) {
   const [glassMode, setGlassMode] = useState<"lens" | "bar" | "cube">("lens")
 
   if (!artwork) return null
+
+  // Kategori etiketini belirle
+  const getCategoryLabel = (category: string) => {
+    switch (category) {
+      case "digital":
+        return t("gallery.categories.digital")
+      case "photography":
+        return t("gallery.categories.photography")
+      case "painting":
+        return t("gallery.categories.painting") || "Resim"
+      case "sculpture":
+        return t("gallery.categories.sculpture") || "Heykel"
+      default:
+        return category
+    }
+  }
 
   return (
     <AnimatePresence>
@@ -146,7 +162,7 @@ export function ArtworkModal({ artwork, onClose }: ArtworkModalProps) {
             {/* Info Section */}
             <div className="p-8">
               <div className="text-sm text-blue-600 font-medium mb-2">
-                {artwork.category === "digital" ? t("gallery.categories.digital") : t("gallery.categories.photography")}
+                {getCategoryLabel(artwork.category)}
               </div>
               <h2 className="font-serif text-3xl font-bold text-gray-900 mb-4">{artwork.title}</h2>
               <p className="text-gray-600 leading-relaxed">{artwork.description}</p>

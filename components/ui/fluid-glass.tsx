@@ -3,7 +3,7 @@
 import { useRef, useMemo, useState, useEffect } from "react"
 import { Canvas, useFrame, useThree } from "@react-three/fiber"
 import { Environment, Float, useFBO, MeshTransmissionMaterial } from "@react-three/drei"
-import { Mesh, Scene, Vector3 } from "three"
+import { Mesh, Scene, Vector3, SphereGeometry, CylinderGeometry, BoxGeometry } from "three"
 
 interface FluidGlassProps {
   mode?: "lens" | "bar" | "cube"
@@ -46,11 +46,16 @@ function ModeWrapper({
   const geoWidthRef = useRef(1)
 
   useEffect(() => {
-    if (geometry) {
-      geometry.computeBoundingBox()
-      geoWidthRef.current = geometry.boundingBox?.max.x - geometry.boundingBox?.min.x || 1
+    if (ref.current && ref.current.geometry) {
+      const meshGeometry = ref.current.geometry
+      if (meshGeometry.computeBoundingBox) {
+        meshGeometry.computeBoundingBox()
+        if (meshGeometry.boundingBox?.max?.x !== undefined && meshGeometry.boundingBox?.min?.x !== undefined) {
+          geoWidthRef.current = meshGeometry.boundingBox.max.x - meshGeometry.boundingBox.min.x
+        }
+      }
     }
-  }, [geometry])
+  }, [ref.current?.geometry])
 
   useFrame((state, delta) => {
     const { gl, viewport, pointer, camera } = state
@@ -117,9 +122,11 @@ function ModeWrapper({
 }
 
 function Lens({ scale = 0.25, ior = 1.15, thickness = 5, chromaticAberration = 0.1, anisotropy = 0.01 }: any) {
+  const geometry = useMemo(() => new SphereGeometry(1, 32, 32), [])
+  
   return (
     <ModeWrapper
-      geometry={<sphereGeometry args={[1, 32, 32]} />}
+      geometry={geometry}
       followPointer
       modeProps={{ scale, ior, thickness, chromaticAberration, anisotropy }}
     />
@@ -127,6 +134,7 @@ function Lens({ scale = 0.25, ior = 1.15, thickness = 5, chromaticAberration = 0
 }
 
 function Bar({ scale = 1, speed = 1 }: any) {
+  const geometry = useMemo(() => new CylinderGeometry(0.5, 0.5, 2, 32), [])
   const defaultMat = {
     transmission: 1,
     roughness: 0,
@@ -139,7 +147,7 @@ function Bar({ scale = 1, speed = 1 }: any) {
 
   return (
     <ModeWrapper
-      geometry={<cylinderGeometry args={[0.5, 0.5, 2, 32]} />}
+      geometry={geometry}
       lockToBottom
       followPointer={false}
       modeProps={{ ...defaultMat, scale, speed }}
@@ -148,9 +156,11 @@ function Bar({ scale = 1, speed = 1 }: any) {
 }
 
 function Cube({ scale = 1, rotation = 1 }: any) {
+  const geometry = useMemo(() => new BoxGeometry(1, 1, 1), [])
+  
   return (
     <ModeWrapper
-      geometry={<boxGeometry args={[1, 1, 1]} />}
+      geometry={geometry}
       followPointer
       modeProps={{ scale, rotation }}
     />

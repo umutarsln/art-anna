@@ -11,9 +11,11 @@ import { AboutStatsSection } from "@/components/about/stats-section"
 import { AboutSkillsSection } from "@/components/about/skills-section"
 import { AboutArtistStatementSection } from "@/components/about/artist-statement-section"
 import { AboutTimelineSection } from "@/components/about/timeline-section"
-
+import { useLanguageStore } from "@/lib/store"
 
 export default function AboutPage() {
+  const { t } = useLanguageStore()
+
   return (
     <div className="min-h-screen bg-white relative">
       <FloatingElements />
@@ -58,7 +60,7 @@ export default function AboutPage() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-            {stats.map((stat, index) => (
+            {stats.map((stat: any, index: any) => (
               <AnimatedCard key={stat.label} delay={index * 0.1}>
                 <div className="text-center p-6 bg-gray-50 rounded-2xl">
                   <stat.icon className="h-8 w-8 text-blue-600 mx-auto mb-4" />
@@ -85,7 +87,7 @@ export default function AboutPage() {
                 </p>
               </TextReveal>
               <div className="space-y-6">
-                {skills.map((skill, index) => (
+                {skills.map((skill: any, index: any) => (
                   <AnimatedCard key={skill.name} delay={index * 0.1}>
                     <div>
                       <div className="flex justify-between items-center mb-2">
@@ -147,7 +149,7 @@ export default function AboutPage() {
             <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gray-200" />
 
             <div className="space-y-12">
-              {timeline.map((item, index) => (
+              {timeline.map((item: any, index: any) => (
                 <AnimatedCard key={item.year} delay={index * 0.2}>
                   <div className="relative flex items-start">
                     <div className="flex-shrink-0 w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg">

@@ -25,7 +25,14 @@
         "projects": "Proje"
       },
       "workingNow": "Şu an çalışıyor",
-      "newProject": "Yeni proje"
+      "newProject": "Yeni proje",
+      "slider": {
+        "previousArtwork": "Önceki eser",
+        "nextArtwork": "Sonraki eser",
+        "goToArtwork": "esere git",
+        "pauseAutoPlay": "Otomatik geçişi durdur",
+        "startAutoPlay": "Otomatik geçişi başlat"
+      }
     },
     "featuredWorks": {
       "title": "Öne Çıkan Çalışmalar",
@@ -42,7 +49,9 @@
       "categories": {
         "all": "Tümü",
         "digital": "Dijital Çizim",
-        "photography": "Fotoğraf"
+        "photography": "Fotoğraf",
+        "painting": "Resim",
+        "sculpture": "Heykel"
       },
       "noWorks": "Bu kategoride henüz eser bulunmuyor.",
       "modal": {
@@ -369,7 +378,9 @@
       "categories": {
         "all": "All",
         "digital": "Digital Art",
-        "photography": "Photography"
+        "photography": "Photography",
+        "painting": "Painting",
+        "sculpture": "Sculpture"
       },
       "noWorks": "No works available in this category yet.",
       "modal": {

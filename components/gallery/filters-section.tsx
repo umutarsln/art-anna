@@ -23,6 +23,8 @@ export function GalleryFiltersSection({
     { key: "all", label: t("gallery.categories.all") },
     { key: "digital", label: t("gallery.categories.digital") },
     { key: "photography", label: t("gallery.categories.photography") },
+    { key: "painting", label: t("gallery.categories.painting") || "Resim" },
+    { key: "sculpture", label: t("gallery.categories.sculpture") || "Heykel" },
   ]
 
   return (

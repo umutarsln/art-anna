@@ -4,12 +4,12 @@ import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
 import { AnimatedCard } from "@/components/ui/animated-card"
 import { useLanguageStore } from "@/lib/store"
-import type { Artwork } from "@/lib/supabase"
+import type { GalleryImage } from "@/lib/gallery-images"
 
 interface GalleryGridProps {
-  artworks: Artwork[]
+  artworks: GalleryImage[]
   viewMode: "grid" | "masonry"
-  onArtworkClick: (artwork: Artwork) => void
+  onArtworkClick: (artwork: GalleryImage) => void
 }
 
 export function GalleryGrid({ artworks, viewMode, onArtworkClick }: GalleryGridProps) {
@@ -21,6 +21,22 @@ export function GalleryGrid({ artworks, viewMode, onArtworkClick }: GalleryGridP
         <p className="text-gray-500 text-lg">{t("gallery.noWorks")}</p>
       </div>
     )
+  }
+
+  // Kategori etiketini belirle
+  const getCategoryLabel = (category: string) => {
+    switch (category) {
+      case "digital":
+        return t("gallery.categories.digital")
+      case "photography":
+        return t("gallery.categories.photography")
+      case "painting":
+        return t("gallery.categories.painting") || "Resim"
+      case "sculpture":
+        return t("gallery.categories.sculpture") || "Heykel"
+      default:
+        return category
+    }
   }
 
   return (
@@ -52,7 +68,7 @@ export function GalleryGrid({ artworks, viewMode, onArtworkClick }: GalleryGridP
               </div>
               <div className="p-6">
                 <div className="text-sm text-blue-600 font-medium mb-2">
-                  {artwork.category === "digital" ? t("gallery.categories.digital") : t("gallery.categories.photography")}
+                  {getCategoryLabel(artwork.category)}
                 </div>
                 <h3 className="font-serif text-xl font-semibold text-gray-900 mb-2">{artwork.title}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">{artwork.description}</p>
