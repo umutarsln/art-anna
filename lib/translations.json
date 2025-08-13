@@ -1,0 +1,973 @@
+{
+  "tr": {
+    "navigation": {
+      "home": "Ana Sayfa",
+      "about": "Hakkımda",
+      "gallery": "Galeri",
+      "blog": "Yazılar",
+      "contact": "İletişim",
+      "cv": "CV",
+      "menu": "Menü",
+      "language": "Dil",
+      "theme": "Tema",
+      "lightMode": "Açık Mod",
+      "darkMode": "Koyu Mod"
+    },
+    "hero": {
+      "title": "Dijital Sanatın",
+      "subtitle": "Büyülü Dünyası",
+      "description": "Dijital çizim ve fotoğraf alanında yaratıcı çalışmalar üreten bir sanatçının portföyüne hoş geldiniz. Her eser, bir hikaye anlatır.",
+      "exploreGallery": "Galeriyi Keşfet",
+      "artStory": "Sanat Hikayem",
+      "stats": {
+        "artworks": "Eser",
+        "experience": "Yıl Deneyim",
+        "projects": "Proje"
+      },
+      "workingNow": "Şu an çalışıyor",
+      "newProject": "Yeni proje"
+    },
+    "featuredWorks": {
+      "title": "Öne Çıkan Çalışmalar",
+      "subtitle": "Son dönemde ürettiğim ve özel önem verdiğim eserlerden bir seçki",
+      "digitalArt": "Dijital Çizim",
+      "photography": "Fotoğraf",
+      "viewDetails": "Detayları Gör",
+      "viewAllWorks": "Tüm Çalışmaları Gör",
+      "noWorks": "Henüz öne çıkan çalışma bulunmuyor."
+    },
+    "gallery": {
+      "title": "Sanat Galerisi",
+      "subtitle": "Dijital çizim ve fotoğraf çalışmalarımdan oluşan koleksiyonum. Her eser, farklı bir hikaye anlatır.",
+      "categories": {
+        "all": "Tümü",
+        "digital": "Dijital Çizim",
+        "photography": "Fotoğraf"
+      },
+      "noWorks": "Bu kategoride henüz eser bulunmuyor.",
+      "modal": {
+        "normalView": "Normal",
+        "glassView": "3D Glass",
+        "glassMode": "Mod:",
+        "lens": "Lens",
+        "bar": "Bar",
+        "cube": "Cube",
+        "glassInfo": "3D Liquid Glass Modu: Bu fotoğrafı 3D cam efekti ile inceleyebilirsiniz. Farklı modları deneyerek eserin farklı açılardan görünümünü keşfedin.",
+        "mouseHint": "Mouse'u hareket ettirin"
+      }
+    },
+    "aboutPreview": {
+      "title": "Sanat, Hayatımın",
+      "subtitle": "Vazgeçilmez Parçası",
+      "description1": "5 yılı aşkın süredir dijital sanat ve fotoğraf alanında çalışmalar yürütüyorum. Her eserimde, duyguları renklere ve formlara dönüştürme tutkumu yansıtmaya çalışıyorum.",
+      "description2": "Teknoloji ve sanatın buluştuğu noktada, geleneksel teknikleri modern araçlarla harmanlayarak özgün eserler üretmeyi hedefliyorum.",
+      "skillsTitle": "Uzmanlık Alanlarım",
+      "skills": [
+        "Dijital İllüstrasyon",
+        "Portre Çizimi",
+        "Fotoğraf",
+        "Konsept Sanatı",
+        "UI/UX Tasarım"
+      ],
+      "learnMore": "Daha Fazla Bilgi"
+    },
+    "about": {
+      "title": "Hakkımda",
+      "subtitle": "Sanat Yolculuğum",
+      "artistStatement": "Çalışmalarımda gerçeklikten hayal gücüne kaçmaya çalışırım, bu da çağdaş dünyaya referanslarla farklı zamanlarda hikaye aracılığıyla buluşur. O kadar iç içe geçmiş bir dünyadır ki, anlaşılmaz hale gelir, olumlu vizyonun bir tür kaybına kadar. Benim için önemli olan gizemli ve hapsolmuş atmosferdir. Bastırılmış duygusallık, hassasiyet ve büyü ön plana çıkar. Bu, duyguları açmak için daha özgür bir alan yaratır. Aynı zamanda, sembollerin belirli bir ironi, abartı ve bir tür büyülü jestle gizlenmiş anlamlarla iç içe geçtiği formal bir oyun vardır.",
+      "hero": {
+        "greeting": "Merhaba, Ben",
+        "artist": "Sanatçı",
+        "description1": "5 yılı aşkın süredir dijital sanat ve fotoğraf alanında çalışmalar yürütüyorum. Sanat, benim için sadece bir meslek değil, aynı zamanda hayatımın vazgeçilmez bir parçası.",
+        "description2": "Her eserimde, duyguları renklere ve formlara dönüştürme tutkumu yansıtmaya çalışıyorum. Teknoloji ve sanatın buluştuğu noktada, geleneksel teknikleri modern araçlarla harmanlayarak özgün eserler üretmeyi hedefliyorum.",
+        "portraitAlt": "Sanatçı Portresi"
+      },
+      "skills": {
+        "title": "Uzmanlık Alanlarım",
+        "subtitle": "Yıllar içinde geliştirdiğim teknik beceriler ve sanatsal yaklaşımlar",
+        "digitalIllustration": "Dijital İllüstrasyon",
+        "photography": "Fotoğraf",
+        "conceptArt": "Konsept Sanatı",
+        "uiux": "UI/UX Tasarım",
+        "threeD": "3D Modelleme",
+        "workspaceAlt": "Çalışma Alanı"
+      },
+      "stats": {
+        "completedProjects": "Tamamlanan Proje",
+        "happyClients": "Mutlu Müşteri",
+        "coffee": "İçilen Kahve",
+        "experience": "Deneyim Yılı"
+      },
+      "artistStatement": {
+        "title": "Sanatçı Açıklaması",
+        "text": "Çalışmalarımda gerçeklikten hayal gücüne kaçmaya çalışırım, bu da çağdaş dünyaya referanslarla farklı zamanlarda hikaye aracılığıyla buluşur. O kadar iç içe geçmiş bir dünyadır ki, anlaşılmaz hale gelir, olumlu vizyonun bir tür kaybına kadar. Benim için önemli olan gizemli ve hapsolmuş atmosferdir. Bastırılmış duygusallık, hassasiyet ve büyü ön plana çıkar. Bu, duyguları açmak için daha özgür bir alan yaratır. Aynı zamanda, sembollerin belirli bir ironi, abartı ve bir tür büyülü jestle gizlenmiş anlamlarla iç içe geçtiği formal bir oyun vardır."
+      },
+      "timeline": {
+        "title": "Sanat Yolculuğum",
+        "2024": {
+          "title": "Freelance Sanatçı",
+          "description": "Bağımsız dijital sanat ve fotoğraf projeleri"
+        },
+        "2023": {
+          "title": "İlk Sergi",
+          "description": "Yerel galeride ilk kişisel sergi açılışı"
+        },
+        "2022": {
+          "title": "Dijital Sanat Eğitimi",
+          "description": "Profesyonel dijital sanat kursları tamamlandı"
+        },
+        "2021": {
+          "title": "Fotoğrafçılığa Başlangıç",
+          "description": "Fotoğraf sanatına yoğunlaşma dönemi"
+        },
+        "2019": {
+          "title": "Sanat Yolculuğu",
+          "description": "Dijital sanat ile tanışma ve ilk çalışmalar"
+        }
+      }
+    },
+    "latestPosts": {
+      "title": "Son Yazılar",
+      "subtitle": "Sanat, teknik ve yaratıcılık üzerine düşüncelerimi paylaştığım blog yazıları",
+      "readMore": "Devamını Oku",
+      "viewAllPosts": "Tüm Yazıları Gör",
+      "readingTime": "dk okuma"
+    },
+    "footer": {
+      "artist": "Sanatçı",
+      "description": "Dijital çizim ve fotoğraf alanında yaratıcı çalışmalar üreten sanatçı portföyü. Her eser, bir hikaye anlatır.",
+      "madeWith": "Made with",
+      "inIstanbul": "in Istanbul",
+      "quickLinks": "Hızlı Bağlantılar",
+      "links": "Bağlantılar",
+      "copyright": "© 2024 Sanatçı Portföyü. Tüm hakları saklıdır.",
+      "privacyPolicy": "Gizlilik Politikası",
+      "termsOfService": "Kullanım Şartları"
+    },
+    "common": {
+      "loading": "Yükleniyor...",
+      "error": "Hata oluştu",
+      "notFound": "Sayfa bulunamadı",
+      "backToHome": "Ana Sayfaya Dön"
+    },
+    "cv": {
+      "title": "Özgeçmiş",
+      "subtitle": "Eğitim, deneyim ve becerilerimi içeren detaylı özgeçmişim",
+      "downloadButton": "CV'yi İndir",
+      "personalInfo": {
+        "title": "Kişisel Bilgiler",
+        "about": "Hakkımda",
+        "description": "5 yılı aşkın süredir dijital sanat ve fotoğraf alanında çalışmalar yürütüyorum. Sanat, benim için sadece bir meslek değil, aynı zamanda hayatımın vazgeçilmez bir parçası."
+      },
+      "experience": {
+        "title": "İş Deneyimi",
+        "job1": {
+          "title": "Freelance Dijital Sanatçı",
+          "company": "Bağımsız Çalışma",
+          "period": "2023 - Günümüz",
+          "location": "İstanbul, Türkiye",
+          "description": [
+            "Dijital illüstrasyon ve konsept sanat projeleri",
+            "Müşteri ihtiyaçlarına göre özel tasarımlar",
+            "Portre çizimi ve karakter tasarımı"
+          ]
+        },
+        "job2": {
+          "title": "Fotoğrafçı",
+          "company": "Stüdyo Fotoğrafçılığı",
+          "period": "2021 - 2023",
+          "location": "İstanbul, Türkiye",
+          "description": [
+            "Portre ve ürün fotoğrafçılığı",
+            "Fotoğraf düzenleme ve retouch",
+            "Müşteri memnuniyeti odaklı hizmet"
+          ]
+        },
+        "job3": {
+          "title": "Grafik Tasarımcı",
+          "company": "Tasarım Ajansı",
+          "period": "2019 - 2021",
+          "location": "İstanbul, Türkiye",
+          "description": [
+            "Logo ve kurumsal kimlik tasarımı",
+            "Sosyal medya içerik tasarımı",
+            "Baskı materyalleri tasarımı"
+          ]
+        }
+      },
+      "education": {
+        "title": "Eğitim",
+        "degree1": {
+          "title": "Grafik Tasarım Lisansı",
+          "school": "Güzel Sanatlar Üniversitesi",
+          "period": "2015 - 2019",
+          "description": "Grafik tasarım, dijital sanat ve görsel iletişim alanlarında kapsamlı eğitim"
+        },
+        "degree2": {
+          "title": "Dijital Sanat Sertifikası",
+          "school": "Dijital Sanat Akademisi",
+          "period": "2020 - 2021",
+          "description": "Profesyonel dijital sanat ve illüstrasyon teknikleri eğitimi"
+        }
+      },
+      "skills": {
+        "title": "Yetenekler",
+        "digitalArt": {
+          "title": "Dijital Sanat",
+          "items": ["Adobe Photoshop", "Adobe Illustrator", "Procreate", "Krita", "Blender"]
+        },
+        "photography": {
+          "title": "Fotoğrafçılık",
+          "items": ["Portre Fotoğrafçılığı", "Ürün Fotoğrafçılığı", "Lightroom", "Capture One"]
+        },
+        "design": {
+          "title": "Tasarım",
+          "items": ["Logo Tasarımı", "UI/UX Tasarımı", "Kurumsal Kimlik", "Sosyal Medya"]
+        },
+        "other": {
+          "title": "Diğer",
+          "items": ["Proje Yönetimi", "Müşteri İletişimi", "Ekip Çalışması", "Problem Çözme"]
+        }
+      },
+      "achievements": {
+        "title": "Başarılar ve Ödüller",
+        "achievement1": {
+          "title": "En İyi Dijital Sanat Ödülü",
+          "organization": "Dijital Sanat Festivali",
+          "year": "2023",
+          "award": "Birincilik"
+        },
+        "achievement2": {
+          "title": "Yılın Fotoğrafçısı",
+          "organization": "Fotoğraf Derneği",
+          "year": "2022",
+          "award": "İkincilik"
+        },
+        "achievement3": {
+          "title": "Yaratıcı Tasarım Ödülü",
+          "organization": "Tasarım Yarışması",
+          "year": "2021",
+          "award": "Üçüncülük"
+        }
+      }
+    },
+    "contact": {
+      "title": "İletişim",
+      "subtitle": "Projeleriniz için benimle iletişime geçin. Size yardımcı olmaktan mutluluk duyarım.",
+      "form": {
+        "title": "Mesaj Gönder",
+        "name": "Ad Soyad",
+        "namePlaceholder": "Adınızı ve soyadınızı girin",
+        "email": "E-posta",
+        "emailPlaceholder": "E-posta adresinizi girin",
+        "subject": "Konu",
+        "subjectPlaceholder": "Mesajınızın konusunu girin",
+        "message": "Mesaj",
+        "messagePlaceholder": "Mesajınızı buraya yazın...",
+        "send": "Gönder",
+        "sending": "Gönderiliyor...",
+        "successTitle": "Mesajınız Gönderildi!",
+        "successMessage": "En kısa sürede size geri dönüş yapacağım.",
+        "newMessage": "Yeni Mesaj"
+      },
+      "info": {
+        "title": "İletişim Bilgileri",
+        "email": {
+          "title": "E-posta"
+        },
+        "phone": {
+          "title": "Telefon"
+        },
+        "location": {
+          "title": "Konum"
+        }
+      },
+      "social": {
+        "title": "Sosyal Medya"
+      },
+      "hours": {
+        "title": "Çalışma Saatleri",
+        "weekdays": "Pazartesi - Cuma",
+        "saturday": "Cumartesi",
+        "sunday": "Pazar",
+        "closed": "Kapalı"
+      },
+      "faq": {
+        "title": "Sık Sorulan Sorular",
+        "question1": "Hangi tür projeler üzerinde çalışıyorsunuz?",
+        "answer1": "Dijital illüstrasyon, portre çizimi, fotoğrafçılık ve grafik tasarım projeleri üzerinde çalışıyorum.",
+        "question2": "Proje süreleri ne kadar?",
+        "answer2": "Proje süreleri projenin kapsamına göre değişir. Genellikle 1-4 hafta arasında tamamlanır.",
+        "question3": "Fiyatlandırma nasıl yapılıyor?",
+        "answer3": "Fiyatlandırma projenin karmaşıklığına ve süresine göre belirlenir. Detaylı bilgi için iletişime geçebilirsiniz."
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "subtitle": "Sanat, teknik ve yaratıcılık üzerine düşüncelerimi paylaştığım yazılar",
+      "searchPlaceholder": "Blog yazılarında ara...",
+      "categories": ["Tümü", "Dijital Sanat", "Fotoğrafçılık", "Tasarım", "Teknik"],
+      "featured": {
+        "label": "Öne Çıkan",
+        "readMore": "Devamını Oku"
+      },
+      "grid": {
+        "readMore": "Devamını Oku"
+      },
+      "post": {
+        "backToBlog": "Blog'a Dön",
+        "author": "Yazar"
+      },
+      "sidebar": {
+        "likeTitle": "Bu yazıyı beğendiniz mi?",
+        "share": "Paylaş",
+        "comments": "yorum",
+        "relatedPosts": "İlgili Yazılar"
+      }
+    }
+  },
+  "en": {
+    "navigation": {
+      "home": "Home",
+      "about": "About",
+      "gallery": "Gallery",
+      "blog": "Blog",
+      "contact": "Contact",
+      "cv": "CV",
+      "menu": "Menu",
+      "language": "Language",
+      "theme": "Theme",
+      "lightMode": "Light Mode",
+      "darkMode": "Dark Mode"
+    },
+    "hero": {
+      "title": "The Magical World",
+      "subtitle": "of Digital Art",
+      "description": "Welcome to the portfolio of an artist producing creative works in digital art and photography. Every piece tells a story.",
+      "exploreGallery": "Explore Gallery",
+      "artStory": "My Art Story",
+      "stats": {
+        "artworks": "Artworks",
+        "experience": "Years Experience",
+        "projects": "Projects"
+      },
+      "workingNow": "Working now",
+      "newProject": "New project"
+    },
+    "featuredWorks": {
+      "title": "Featured Works",
+      "subtitle": "A selection of works I've produced recently and attach special importance to",
+      "digitalArt": "Digital Art",
+      "photography": "Photography",
+      "viewDetails": "View Details",
+      "viewAllWorks": "View All Works",
+      "noWorks": "No featured works available yet."
+    },
+    "gallery": {
+      "title": "Art Gallery",
+      "subtitle": "My collection of digital art and photography works. Each piece tells a different story.",
+      "categories": {
+        "all": "All",
+        "digital": "Digital Art",
+        "photography": "Photography"
+      },
+      "noWorks": "No works available in this category yet.",
+      "modal": {
+        "normalView": "Normal",
+        "glassView": "3D Glass",
+        "glassMode": "Mode:",
+        "lens": "Lens",
+        "bar": "Bar",
+        "cube": "Cube",
+        "glassInfo": "3D Liquid Glass Mode: You can examine this photo with 3D glass effect. Explore the artwork from different angles by trying different modes.",
+        "mouseHint": "Move your mouse"
+      }
+    },
+    "aboutPreview": {
+      "title": "Art is an",
+      "subtitle": "Indispensable Part of My Life",
+      "description1": "I have been working in digital art and photography for over 5 years. In every piece, I try to reflect my passion for transforming emotions into colors and forms.",
+      "description2": "At the intersection of technology and art, I aim to produce unique works by blending traditional techniques with modern tools.",
+      "skillsTitle": "My Areas of Expertise",
+      "skills": [
+        "Digital Illustration",
+        "Portrait Drawing",
+        "Photography",
+        "Concept Art",
+        "UI/UX Design"
+      ],
+      "learnMore": "Learn More"
+    },
+    "about": {
+      "title": "About",
+      "subtitle": "My Artistic Journey",
+      "artistStatement": "In my work, I try to escape reality into imagination, which meets through the story at different times with references to the contemporary world. It is a world that is so intrinsically intertwined that it becomes unfathomable, to the point where there is a kind of loss of positive vision. What matters to me is the mysterious and trapped atmosphere. Suppressed emotionality, sensitivity, and magic move to the fore. This creates a freer space to open emotions. At the same time, there is a formal game where symbols are intertwined with meanings with a certain irony, an exaggeration, obscured by a kind of magical gesture.",
+      "hero": {
+        "greeting": "Hello, I'm",
+        "artist": "Artist",
+        "description1": "I have been working in digital art and photography for over 5 years. Art is not just a profession for me, but also an indispensable part of my life.",
+        "description2": "In every piece, I try to reflect my passion for transforming emotions into colors and forms. At the intersection of technology and art, I aim to produce unique works by blending traditional techniques with modern tools.",
+        "portraitAlt": "Artist Portrait"
+      },
+      "skills": {
+        "title": "My Areas of Expertise",
+        "subtitle": "Technical skills and artistic approaches I've developed over the years",
+        "digitalIllustration": "Digital Illustration",
+        "photography": "Photography",
+        "conceptArt": "Concept Art",
+        "uiux": "UI/UX Design",
+        "threeD": "3D Modeling",
+        "workspaceAlt": "Workspace"
+      },
+      "stats": {
+        "completedProjects": "Completed Projects",
+        "happyClients": "Happy Clients",
+        "coffee": "Coffee Consumed",
+        "experience": "Years Experience"
+      },
+      "artistStatement": {
+        "title": "Artist Statement",
+        "text": "In my work, I try to escape reality into imagination, which meets through the story at different times with references to the contemporary world. It is a world that is so intrinsically intertwined that it becomes unfathomable, to the point where there is a kind of loss of positive vision. What matters to me is the mysterious and trapped atmosphere. Suppressed emotionality, sensitivity, and magic move to the fore. This creates a freer space to open emotions. At the same time, there is a formal game where symbols are intertwined with meanings with a certain irony, an exaggeration, obscured by a kind of magical gesture."
+      },
+      "timeline": {
+        "title": "My Artistic Journey",
+        "2024": {
+          "title": "Freelance Artist",
+          "description": "Independent digital art and photography projects"
+        },
+        "2023": {
+          "title": "First Exhibition",
+          "description": "First solo exhibition opening at local gallery"
+        },
+        "2022": {
+          "title": "Digital Art Education",
+          "description": "Completed professional digital art courses"
+        },
+        "2021": {
+          "title": "Photography Start",
+          "description": "Period of focus on photographic art"
+        },
+        "2019": {
+          "title": "Art Journey",
+          "description": "Introduction to digital art and first works"
+        }
+      }
+    },
+    "latestPosts": {
+      "title": "Latest Posts",
+      "subtitle": "Blog posts where I share my thoughts on art, technique and creativity",
+      "readMore": "Read More",
+      "viewAllPosts": "View All Posts",
+      "readingTime": "min read"
+    },
+    "footer": {
+      "artist": "Artist",
+      "description": "Artist portfolio producing creative works in digital art and photography. Every piece tells a story.",
+      "madeWith": "Made with",
+      "inIstanbul": "in Istanbul",
+      "quickLinks": "Quick Links",
+      "links": "Links",
+      "copyright": "© 2024 Artist Portfolio. All rights reserved.",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service"
+    },
+    "common": {
+      "loading": "Loading...",
+      "error": "An error occurred",
+      "notFound": "Page not found",
+      "backToHome": "Back to Home"
+    },
+    "cv": {
+      "title": "Resume",
+      "subtitle": "My detailed resume including education, experience and skills",
+      "downloadButton": "Download CV",
+      "personalInfo": {
+        "title": "Personal Information",
+        "about": "About",
+        "description": "I have been working in digital art and photography for over 5 years. Art is not just a profession for me, but also an indispensable part of my life."
+      },
+      "experience": {
+        "title": "Work Experience",
+        "job1": {
+          "title": "Freelance Digital Artist",
+          "company": "Independent Work",
+          "period": "2023 - Present",
+          "location": "Istanbul, Turkey",
+          "description": [
+            "Digital illustration and concept art projects",
+            "Custom designs according to customer needs",
+            "Portrait drawing and character design"
+          ]
+        },
+        "job2": {
+          "title": "Photographer",
+          "company": "Studio Photography",
+          "period": "2021 - 2023",
+          "location": "Istanbul, Turkey",
+          "description": [
+            "Portrait and product photography",
+            "Photo editing and retouching",
+            "Customer satisfaction focused service"
+          ]
+        },
+        "job3": {
+          "title": "Graphic Designer",
+          "company": "Design Agency",
+          "period": "2019 - 2021",
+          "location": "Istanbul, Turkey",
+          "description": [
+            "Logo and corporate identity design",
+            "Social media content design",
+            "Print material design"
+          ]
+        }
+      },
+      "education": {
+        "title": "Education",
+        "degree1": {
+          "title": "Graphic Design Bachelor's Degree",
+          "school": "Fine Arts University",
+          "period": "2015 - 2019",
+          "description": "Comprehensive education in graphic design, digital art and visual communication"
+        },
+        "degree2": {
+          "title": "Digital Art Certificate",
+          "school": "Digital Art Academy",
+          "period": "2020 - 2021",
+          "description": "Professional digital art and illustration techniques training"
+        }
+      },
+      "skills": {
+        "title": "Skills",
+        "digitalArt": {
+          "title": "Digital Art",
+          "items": ["Adobe Photoshop", "Adobe Illustrator", "Procreate", "Krita", "Blender"]
+        },
+        "photography": {
+          "title": "Photography",
+          "items": ["Portrait Photography", "Product Photography", "Lightroom", "Capture One"]
+        },
+        "design": {
+          "title": "Design",
+          "items": ["Logo Design", "UI/UX Design", "Corporate Identity", "Social Media"]
+        },
+        "other": {
+          "title": "Other",
+          "items": ["Project Management", "Customer Communication", "Team Work", "Problem Solving"]
+        }
+      },
+      "achievements": {
+        "title": "Achievements and Awards",
+        "achievement1": {
+          "title": "Best Digital Art Award",
+          "organization": "Digital Art Festival",
+          "year": "2023",
+          "award": "First Place"
+        },
+        "achievement2": {
+          "title": "Photographer of the Year",
+          "organization": "Photography Association",
+          "year": "2022",
+          "award": "Second Place"
+        },
+        "achievement3": {
+          "title": "Creative Design Award",
+          "organization": "Design Competition",
+          "year": "2021",
+          "award": "Third Place"
+        }
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Get in touch with me for your projects. I'd be happy to help you.",
+      "form": {
+        "title": "Send Message",
+        "name": "Full Name",
+        "namePlaceholder": "Enter your full name",
+        "email": "Email",
+        "emailPlaceholder": "Enter your email address",
+        "subject": "Subject",
+        "subjectPlaceholder": "Enter the subject of your message",
+        "message": "Message",
+        "messagePlaceholder": "Write your message here...",
+        "send": "Send",
+        "sending": "Sending...",
+        "successTitle": "Your Message Sent!",
+        "successMessage": "I'll get back to you as soon as possible.",
+        "newMessage": "New Message"
+      },
+      "info": {
+        "title": "Contact Information",
+        "email": {
+          "title": "Email"
+        },
+        "phone": {
+          "title": "Phone"
+        },
+        "location": {
+          "title": "Location"
+        }
+      },
+      "social": {
+        "title": "Social Media"
+      },
+      "hours": {
+        "title": "Working Hours",
+        "weekdays": "Monday - Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday",
+        "closed": "Closed"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "question1": "What types of projects do you work on?",
+        "answer1": "I work on digital illustration, portrait drawing, photography and graphic design projects.",
+        "question2": "How long do projects take?",
+        "answer2": "Project durations vary according to the scope of the project. They are usually completed within 1-4 weeks.",
+        "question3": "How is pricing done?",
+        "answer3": "Pricing is determined according to the complexity and duration of the project. You can contact us for detailed information."
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "subtitle": "Articles where I share my thoughts on art, technique and creativity",
+      "searchPlaceholder": "Search in blog posts...",
+      "categories": ["All", "Digital Art", "Photography", "Design", "Technical"],
+      "featured": {
+        "label": "Featured",
+        "readMore": "Read More"
+      },
+      "grid": {
+        "readMore": "Read More"
+      },
+      "post": {
+        "backToBlog": "Back to Blog",
+        "author": "Author"
+      },
+      "sidebar": {
+        "likeTitle": "Did you like this post?",
+        "share": "Share",
+        "comments": "comments",
+        "relatedPosts": "Related Posts"
+      }
+    }
+  },
+  "cs": {
+    "navigation": {
+      "home": "Domů",
+      "about": "O mně",
+      "gallery": "Galerie",
+      "blog": "Blog",
+      "contact": "Kontakt",
+      "cv": "CV",
+      "menu": "Menu",
+      "language": "Jazyk",
+      "theme": "Téma",
+      "lightMode": "Světlý režim",
+      "darkMode": "Tmavý režim"
+    },
+    "hero": {
+      "title": "Kouzelný svět",
+      "subtitle": "digitálního umění",
+      "description": "Vítejte v portfoliu umělce vytvářejícího kreativní díla v oblasti digitálního umění a fotografie. Každé dílo vypráví příběh.",
+      "exploreGallery": "Prozkoumat galerii",
+      "artStory": "Můj umělecký příběh",
+      "stats": {
+        "artworks": "Díla",
+        "experience": "Roky zkušeností",
+        "projects": "Projekty"
+      },
+      "workingNow": "Právě pracuje",
+      "newProject": "Nový projekt"
+    },
+    "featuredWorks": {
+      "title": "Vybraná díla",
+      "subtitle": "Výběr děl, která jsem nedávno vytvořil a kterým přikládám zvláštní význam",
+      "digitalArt": "Digitální umění",
+      "photography": "Fotografie",
+      "viewDetails": "Zobrazit detaily",
+      "viewAllWorks": "Zobrazit všechna díla",
+      "noWorks": "Zatím nejsou k dispozici žádná vybraná díla."
+    },
+    "gallery": {
+      "title": "Umělecká galerie",
+      "subtitle": "Moje sbírka děl digitálního umění a fotografie. Každé dílo vypráví jiný příběh.",
+      "categories": {
+        "all": "Vše",
+        "digital": "Digitální umění",
+        "photography": "Fotografie"
+      },
+      "noWorks": "V této kategorii zatím nejsou k dispozici žádná díla."
+    },
+    "aboutPreview": {
+      "title": "Umění je",
+      "subtitle": "nedílnou součástí mého života",
+      "description1": "Více než 5 let se věnuji digitálnímu umění a fotografii. V každém díle se snažím odrážet svou vášeň pro přeměnu emocí na barvy a formy.",
+      "description2": "Na průsečíku technologie a umění se snažím vytvářet jedinečná díla kombinováním tradičních technik s moderními nástroji.",
+      "skillsTitle": "Moje oblasti odbornosti",
+      "skills": [
+        "Digitální ilustrace",
+        "Kresba portrétů",
+        "Fotografie",
+        "Koncepční umění",
+        "UI/UX design"
+      ],
+      "learnMore": "Dozvědět se více"
+    },
+    "about": {
+      "title": "O mně",
+      "subtitle": "Moje umělecká cesta",
+      "artistStatement": "Ve své práci se snažím uniknout realitě do představivosti, která se setkává příběhem v různých časech s odkazy na současný svět. Je to svět, který je tak vnitřně propletený, že se stává nepochopitelným, až do bodu, kde dochází k jakési ztrátě pozitivní vize. Pro mě je důležitá tajemná a uvězněná atmosféra. Potlačená emocionalita, citlivost a magie se dostávají do popředí. To vytváří svobodnější prostor pro otevírání emocí. Zároveň existuje formální hra, kde se symboly proplétají s významy s určitou ironií, nadsázkou, zastřené jakýmsi magickým gestem.",
+      "hero": {
+        "greeting": "Ahoj, jsem",
+        "artist": "Umělec",
+        "description1": "Více než 5 let se věnuji digitálnímu umění a fotografii. Umění pro mě není jen povolání, ale také nedílná součást mého života.",
+        "description2": "V každém díle se snažím odrážet svou vášeň pro přeměnu emocí na barvy a formy. Na průsečíku technologie a umění se snažím vytvářet jedinečná díla kombinováním tradičních technik s moderními nástroji.",
+        "portraitAlt": "Portrét umělce"
+      },
+      "skills": {
+        "title": "Moje oblasti odbornosti",
+        "subtitle": "Technické dovednosti a umělecké přístupy, které jsem vyvinul v průběhu let",
+        "digitalIllustration": "Digitální ilustrace",
+        "photography": "Fotografie",
+        "conceptArt": "Koncepční umění",
+        "uiux": "UI/UX design",
+        "threeD": "3D modelování",
+        "workspaceAlt": "Pracovní prostor"
+      },
+      "stats": {
+        "completedProjects": "Dokončené projekty",
+        "happyClients": "Spokojení klienti",
+        "coffee": "Vypitá káva",
+        "experience": "Roky zkušeností"
+      },
+      "artistStatement": {
+        "title": "Umělecké vyjádření",
+        "text": "Ve své práci se snažím uniknout realitě do představivosti, která se setkává příběhem v různých časech s odkazy na současný svět. Je to svět, který je tak vnitřně propletený, že se stává nepochopitelným, až do bodu, kde dochází k jakési ztrátě pozitivní vize. Pro mě je důležitá tajemná a uvězněná atmosféra. Potlačená emocionalita, citlivost a magie se dostávají do popředí. To vytváří svobodnější prostor pro otevírání emocí. Zároveň existuje formální hra, kde se symboly proplétají s významy s určitou ironií, nadsázkou, zastřené jakýmsi magickým gestem."
+      },
+      "timeline": {
+        "title": "Moje umělecká cesta",
+        "2024": {
+          "title": "Nezávislý umělec",
+          "description": "Nezávislé projekty digitálního umění a fotografie"
+        },
+        "2023": {
+          "title": "První výstava",
+          "description": "První samostatná výstava v místní galerii"
+        },
+        "2022": {
+          "title": "Vzdělání v digitálním umění",
+          "description": "Dokončení profesionálních kurzů digitálního umění"
+        },
+        "2021": {
+          "title": "Začátek fotografie",
+          "description": "Období zaměření na fotografické umění"
+        },
+        "2019": {
+          "title": "Umělecká cesta",
+          "description": "Seznámení s digitálním uměním a první díla"
+        }
+      }
+    },
+    "latestPosts": {
+      "title": "Nejnovější články",
+      "subtitle": "Blogové články, kde sdílím své myšlenky o umění, technice a kreativitě",
+      "readMore": "Číst více",
+      "viewAllPosts": "Zobrazit všechny články",
+      "readingTime": "min čtení"
+    },
+    "footer": {
+      "artist": "Umělec",
+      "description": "Portfolio umělce vytvářejícího kreativní díla v oblasti digitálního umění a fotografie. Každé dílo vypráví příběh.",
+      "madeWith": "Vytvořeno s",
+      "inIstanbul": "v Istanbulu",
+      "quickLinks": "Rychlé odkazy",
+      "links": "Odkazy",
+      "copyright": "© 2024 Umělecké portfolio. Všechna práva vyhrazena.",
+      "privacyPolicy": "Zásady ochrany osobních údajů",
+      "termsOfService": "Podmínky použití"
+    },
+    "common": {
+      "loading": "Načítání...",
+      "error": "Došlo k chybě",
+      "notFound": "Stránka nebyla nalezena",
+      "backToHome": "Zpět na hlavní stránku"
+    },
+    "cv": {
+      "title": "Životopis",
+      "subtitle": "Můj detailní životopis včetně vzdělání, zkušeností a dovedností",
+      "downloadButton": "Stáhnout CV",
+      "personalInfo": {
+        "title": "Osobní informace",
+        "about": "O mně",
+        "description": "Více než 5 let se věnuji digitálnímu umění a fotografii. Umění pro mě není jen povolání, ale také nedílná součást mého života."
+      },
+      "experience": {
+        "title": "Pracovní zkušenosti",
+        "job1": {
+          "title": "Nezávislý digitální umělec",
+          "company": "Nezávislá práce",
+          "period": "2023 - Současnost",
+          "location": "Istanbul, Turecko",
+          "description": [
+            "Projekty digitální ilustrace a koncepčního umění",
+            "Vlastní návrhy podle potřeb zákazníků",
+            "Kresba portrétů a design postav"
+          ]
+        },
+        "job2": {
+          "title": "Fotograf",
+          "company": "Studiová fotografie",
+          "period": "2021 - 2023",
+          "location": "Istanbul, Turecko",
+          "description": [
+            "Portrétní a produktová fotografie",
+            "Úprava a retušování fotografií",
+            "Služba zaměřená na spokojenost zákazníků"
+          ]
+        },
+        "job3": {
+          "title": "Grafický designér",
+          "company": "Designová agentura",
+          "period": "2019 - 2021",
+          "location": "Istanbul, Turecko",
+          "description": [
+            "Design loga a firemní identity",
+            "Design obsahu pro sociální sítě",
+            "Design tiskových materiálů"
+          ]
+        }
+      },
+      "education": {
+        "title": "Vzdělání",
+        "degree1": {
+          "title": "Bakalářský titul v grafickém designu",
+          "school": "Univerzita výtvarných umění",
+          "period": "2015 - 2019",
+          "description": "Komplexní vzdělání v grafickém designu, digitálním umění a vizuální komunikaci"
+        },
+        "degree2": {
+          "title": "Certifikát digitálního umění",
+          "school": "Akademie digitálního umění",
+          "period": "2020 - 2021",
+          "description": "Profesionální školení technik digitálního umění a ilustrace"
+        }
+      },
+      "skills": {
+        "title": "Dovednosti",
+        "digitalArt": {
+          "title": "Digitální umění",
+          "items": ["Adobe Photoshop", "Adobe Illustrator", "Procreate", "Krita", "Blender"]
+        },
+        "photography": {
+          "title": "Fotografie",
+          "items": ["Portrétní fotografie", "Produktová fotografie", "Lightroom", "Capture One"]
+        },
+        "design": {
+          "title": "Design",
+          "items": ["Design loga", "UI/UX design", "Firemní identita", "Sociální sítě"]
+        },
+        "other": {
+          "title": "Jiné",
+          "items": ["Řízení projektů", "Komunikace se zákazníky", "Týmová práce", "Řešení problémů"]
+        }
+      },
+      "achievements": {
+        "title": "Úspěchy a ocenění",
+        "achievement1": {
+          "title": "Cena za nejlepší digitální umění",
+          "organization": "Festival digitálního umění",
+          "year": "2023",
+          "award": "První místo"
+        },
+        "achievement2": {
+          "title": "Fotograf roku",
+          "organization": "Fotografická asociace",
+          "year": "2022",
+          "award": "Druhé místo"
+        },
+        "achievement3": {
+          "title": "Cena za kreativní design",
+          "organization": "Designová soutěž",
+          "year": "2021",
+          "award": "Třetí místo"
+        }
+      }
+    },
+    "contact": {
+      "title": "Kontakt",
+      "subtitle": "Kontaktujte mě pro vaše projekty. Rád vám pomohu.",
+      "form": {
+        "title": "Odeslat zprávu",
+        "name": "Celé jméno",
+        "namePlaceholder": "Zadejte své celé jméno",
+        "email": "E-mail",
+        "emailPlaceholder": "Zadejte svou e-mailovou adresu",
+        "subject": "Předmět",
+        "subjectPlaceholder": "Zadejte předmět vaší zprávy",
+        "message": "Zpráva",
+        "messagePlaceholder": "Napište svou zprávu zde...",
+        "send": "Odeslat",
+        "sending": "Odesílání...",
+        "successTitle": "Vaše zpráva odeslána!",
+        "successMessage": "Odpovím vám co nejdříve.",
+        "newMessage": "Nová zpráva"
+      },
+      "info": {
+        "title": "Kontaktní informace",
+        "email": {
+          "title": "E-mail"
+        },
+        "phone": {
+          "title": "Telefon"
+        },
+        "location": {
+          "title": "Umístění"
+        }
+      },
+      "social": {
+        "title": "Sociální sítě"
+      },
+      "hours": {
+        "title": "Pracovní doba",
+        "weekdays": "Pondělí - Pátek",
+        "saturday": "Sobota",
+        "sunday": "Neděle",
+        "closed": "Zavřeno"
+      },
+      "faq": {
+        "title": "Často kladené otázky",
+        "question1": "Na jakých typech projektů pracujete?",
+        "answer1": "Pracuji na projektech digitální ilustrace, kresby portrétů, fotografie a grafického designu.",
+        "question2": "Jak dlouho trvají projekty?",
+        "answer2": "Doba trvání projektů se liší podle rozsahu projektu. Obvykle jsou dokončeny během 1-4 týdnů.",
+        "question3": "Jak se stanovuje cena?",
+        "answer3": "Cena se stanovuje podle složitosti a délky trvání projektu. Pro podrobné informace nás můžete kontaktovat."
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "subtitle": "Články, kde sdílím své myšlenky o umění, technice a kreativitě",
+      "searchPlaceholder": "Hledat v blogových článcích...",
+      "categories": ["Vše", "Digitální umění", "Fotografie", "Design", "Technické"],
+      "featured": {
+        "label": "Doporučené",
+        "readMore": "Číst více"
+      },
+      "grid": {
+        "readMore": "Číst více"
+      },
+      "post": {
+        "backToBlog": "Zpět na blog",
+        "author": "Autor"
+      },
+      "sidebar": {
+        "likeTitle": "Líbil se vám tento článek?",
+        "share": "Sdílet",
+        "comments": "komentářů",
+        "relatedPosts": "Související články"
+      }
+    }
+  }
+} 
