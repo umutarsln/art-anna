@@ -6,41 +6,85 @@ import { AnimatedCard } from "@/components/ui/animated-card"
 import { TextReveal } from "@/components/ui/text-reveal"
 import { useLanguageStore } from "@/lib/store"
 
+/**
+ * About sayfası hero section'ı - Sanatçı portresi ve kişisel hikaye
+ */
 export function AboutHeroSection() {
   const { t } = useLanguageStore()
 
   return (
-    <section className="py-20 bg-gradient-to-b from-gray-50 to-white relative">
+    <section className="relative min-h-screen bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <TextReveal>
-              <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-                {t("about.hero.greeting")}
-                <span className="block text-blue-600">{t("about.hero.artist")}</span>
-              </h1>
-            </TextReveal>
-            <TextReveal delay={0.2}>
-              <p className="text-xl text-gray-600 leading-relaxed mb-8">
-                {t("about.hero.description1")}
-              </p>
-            </TextReveal>
-            <TextReveal delay={0.4}>
-              <p className="text-lg text-gray-600 leading-relaxed">
-                {t("about.hero.description2")}
-              </p>
-            </TextReveal>
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center min-h-screen py-20 lg:py-32">
+          {/* Artist Portrait */}
+          <div className="order-2 lg:order-1">
+            <AnimatedCard delay={0.3}>
+              <div className="relative">
+                <div className="aspect-[4/5] overflow-hidden rounded-2xl bg-gray-100">
+                  <Image 
+                    src="/images/artist-portrait.png" 
+                    alt={t("about.hero.portraitAlt")} 
+                    fill 
+                    className="object-cover" 
+                  />
+                </div>
+                <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-blue-600 rounded-full flex items-center justify-center">
+                  <svg viewBox="0 0 24 24" className="w-12 h-12 text-white" fill="currentColor">
+                    <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z"/>
+                    <path d="M8 11l2 2 4-4" stroke="currentColor" strokeWidth="2" fill="none"/>
+                  </svg>
+                </div>
+                <div className="absolute -top-4 -left-4 w-20 h-20 bg-pink-100 rounded-full blur-xl opacity-60" />
+              </div>
+            </AnimatedCard>
           </div>
 
-          <AnimatedCard delay={0.3}>
-            <div className="relative">
-              <div className="aspect-square rounded-2xl overflow-hidden bg-gray-100">
-                <Image src="/images/artist-portrait.png" alt={t("about.hero.portraitAlt")} fill className="object-cover" />
+          {/* Artist Statement */}
+          <div className="order-1 lg:order-2 space-y-8">
+            <TextReveal>
+              <div className="space-y-4">
+                <h1 className="font-serif text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
+                  {t("about.hero.greeting")}
+                  <span className="block text-blue-600 font-accent text-5xl lg:text-7xl">
+                    {t("about.hero.artist")}
+                  </span>
+                </h1>
+                <div className="w-24 h-1 bg-blue-600"></div>
               </div>
-              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-blue-100 rounded-full blur-xl opacity-60" />
-              <div className="absolute -top-4 -left-4 w-20 h-20 bg-pink-100 rounded-full blur-xl opacity-60" />
-            </div>
-          </AnimatedCard>
+            </TextReveal>
+
+            <TextReveal delay={0.2}>
+              <div className="space-y-6">
+                <p className="text-xl lg:text-2xl text-gray-600 leading-relaxed">
+                  {t("about.hero.description1")}
+                </p>
+                
+                <blockquote className="border-l-4 border-blue-600 pl-6 py-4 bg-gray-50 rounded-r-lg">
+                  <p className="font-serif text-xl lg:text-2xl text-gray-900 italic leading-relaxed">
+                    "Sanat, görüneni görünmez kılmak ve görünmeyeni görünür kılmak sanatıdır."
+                  </p>
+                  <cite className="text-sm text-gray-600 mt-2 block">
+                    — Kişisel Sanat Manifestosu, 2024
+                  </cite>
+                </blockquote>
+
+                <p className="text-lg text-gray-600 leading-relaxed">
+                  {t("about.hero.description2")}
+                </p>
+
+                <div className="grid grid-cols-2 gap-6 pt-4">
+                  <div className="text-center">
+                    <div className="font-serif text-3xl lg:text-4xl font-bold text-blue-600">15+</div>
+                    <div className="text-sm text-gray-600">Yıllık Deneyim</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="font-serif text-3xl lg:text-4xl font-bold text-blue-600">200+</div>
+                    <div className="text-sm text-gray-600">Tamamlanan Eser</div>
+                  </div>
+                </div>
+              </div>
+            </TextReveal>
+          </div>
         </div>
       </div>
     </section>
