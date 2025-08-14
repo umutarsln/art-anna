@@ -13,6 +13,9 @@ interface LanguageContextType {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
 
+/**
+ * Dil sağlayıcı bileşeni - Uygulama genelinde dil desteği sağlar
+ */
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [language, setLanguage] = useState<Language>("tr")
 
@@ -32,6 +35,11 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   }
 
   const t = (key: string): string => {
+    // Special case for language key
+    if (key === "language") {
+      return language
+    }
+
     const keys = key.split(".")
     let value: any = translations[language]
 
@@ -57,6 +65,9 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   return <LanguageContext.Provider value={value}>{children}</LanguageContext.Provider>
 }
 
+/**
+ * Dil context'ini kullanmak için hook
+ */
 export function useLanguage() {
   const context = useContext(LanguageContext)
   if (context === undefined) {

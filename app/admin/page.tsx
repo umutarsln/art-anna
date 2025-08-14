@@ -5,6 +5,9 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { ImageIcon, FileText, MessageSquare, Eye, TrendingUp, Calendar, Plus } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
 
+/**
+ * Admin dashboard sayfası - Yönetim paneli ana sayfası
+ */
 export default function AdminDashboard() {
   const { t } = useLanguage()
   const [stats, setStats] = useState({
@@ -21,7 +24,7 @@ export default function AdminDashboard() {
 
   const statCards = [
     {
-      title: t.admin.dashboard.totalArtworks,
+      title: t("admin.dashboard.totalArtworks"),
       value: stats.totalArtworks,
       icon: ImageIcon,
       color: "text-blue-600",
@@ -29,7 +32,7 @@ export default function AdminDashboard() {
       href: "/admin/artworks",
     },
     {
-      title: t.admin.dashboard.totalPosts,
+      title: t("admin.dashboard.totalPosts"),
       value: stats.totalPosts,
       icon: FileText,
       color: "text-green-600",
@@ -37,7 +40,7 @@ export default function AdminDashboard() {
       href: "/admin/blog",
     },
     {
-      title: t.admin.dashboard.totalMessages,
+      title: t("admin.dashboard.totalMessages"),
       value: stats.totalMessages,
       icon: MessageSquare,
       color: "text-purple-600",
@@ -45,7 +48,7 @@ export default function AdminDashboard() {
       href: "/admin/messages",
     },
     {
-      title: t.admin.dashboard.totalMessages,
+      title: t("admin.dashboard.totalMessages"),
       value: stats.totalViews,
       icon: Eye,
       color: "text-orange-600",
@@ -59,11 +62,11 @@ export default function AdminDashboard() {
       {/* Header */}
       <div className="flex justify-between items-center">
         <div>
-          <h1 className="text-3xl font-serif font-bold text-gray-900">{t.admin.dashboard.title}</h1>
-          <p className="text-gray-600 mt-2">{t.admin.dashboard.overview}</p>
+          <h1 className="text-3xl font-serif font-bold text-gray-900">{t("admin.dashboard.title")}</h1>
+          <p className="text-gray-600 mt-2">{t("admin.dashboard.overview")}</p>
         </div>
         <div className="text-sm text-gray-500">
-          {t.common.date}: {new Date().toLocaleDateString()}
+          {t("common.date")}: {new Date().toLocaleDateString()}
         </div>
       </div>
 
@@ -94,7 +97,7 @@ export default function AdminDashboard() {
           <CardHeader>
             <CardTitle className="flex items-center">
               <TrendingUp className="mr-2 h-5 w-5" />
-              {t.admin.dashboard.recentActivity}
+              {t("admin.dashboard.recentActivity")}
             </CardTitle>
           </CardHeader>
           <CardContent>
@@ -119,7 +122,7 @@ export default function AdminDashboard() {
           <CardHeader>
             <CardTitle className="flex items-center">
               <Calendar className="mr-2 h-5 w-5" />
-              {t.admin.dashboard.overview}
+              {t("admin.dashboard.overview")}
             </CardTitle>
           </CardHeader>
           <CardContent>
@@ -128,8 +131,8 @@ export default function AdminDashboard() {
                 <div className="flex items-center">
                   <Plus className="mr-3 h-5 w-5 text-blue-600" />
                   <div>
-                    <div className="font-medium text-blue-900">{t.admin.artworks.add}</div>
-                    <div className="text-sm text-blue-600">{t.admin.artworks.title}</div>
+                    <div className="font-medium text-blue-900">{t("admin.artworks.add")}</div>
+                    <div className="text-sm text-blue-600">{t("admin.artworks.title")}</div>
                   </div>
                 </div>
               </div>
@@ -138,8 +141,8 @@ export default function AdminDashboard() {
                 <div className="flex items-center">
                   <Plus className="mr-3 h-5 w-5 text-green-600" />
                   <div>
-                    <div className="font-medium text-green-900">{t.admin.blog.add}</div>
-                    <div className="text-sm text-green-600">{t.admin.blog.title}</div>
+                    <div className="font-medium text-green-900">{t("admin.blog.add")}</div>
+                    <div className="text-sm text-green-600">{t("admin.blog.title")}</div>
                   </div>
                 </div>
               </div>
@@ -148,8 +151,8 @@ export default function AdminDashboard() {
                 <div className="flex items-center">
                   <MessageSquare className="mr-3 h-5 w-5 text-purple-600" />
                   <div>
-                    <div className="font-medium text-purple-900">{t.admin.messages.title}</div>
-                    <div className="text-sm text-purple-600">{t.admin.dashboard.messages}</div>
+                    <div className="font-medium text-purple-900">{t("admin.messages.title")}</div>
+                    <div className="text-sm text-purple-600">{t("admin.dashboard.messages")}</div>
                   </div>
                 </div>
               </div>
@@ -162,7 +165,7 @@ export default function AdminDashboard() {
       <Card>
         <CardHeader>
           <CardTitle>
-            {t.language === "tr" ? "Sistem Durumu" : t.language === "en" ? "System Status" : "Stav systému"}
+            {t("language") === "tr" ? "Sistem Durumu" : t("language") === "en" ? "System Status" : "Stav systému"}
           </CardTitle>
         </CardHeader>
         <CardContent>
@@ -171,10 +174,10 @@ export default function AdminDashboard() {
               <div className="w-3 h-3 bg-green-500 rounded-full"></div>
               <div>
                 <div className="font-medium text-green-900">
-                  {t.language === "tr" ? "Veritabanı" : t.language === "en" ? "Database" : "Databáze"}
+                  {t("language") === "tr" ? "Veritabanı" : t("language") === "en" ? "Database" : "Databáze"}
                 </div>
                 <div className="text-sm text-green-600">
-                  {t.language === "tr" ? "Çalışıyor" : t.language === "en" ? "Running" : "Běží"}
+                  {t("language") === "tr" ? "Çalışıyor" : t("language") === "en" ? "Running" : "Běží"}
                 </div>
               </div>
             </div>
@@ -184,7 +187,7 @@ export default function AdminDashboard() {
               <div>
                 <div className="font-medium text-green-900">API</div>
                 <div className="text-sm text-green-600">
-                  {t.language === "tr" ? "Çalışıyor" : t.language === "en" ? "Running" : "Běží"}
+                  {t("language") === "tr" ? "Çalışıyor" : t("language") === "en" ? "Running" : "Běží"}
                 </div>
               </div>
             </div>
@@ -193,10 +196,10 @@ export default function AdminDashboard() {
               <div className="w-3 h-3 bg-green-500 rounded-full"></div>
               <div>
                 <div className="font-medium text-green-900">
-                  {t.language === "tr" ? "Dosya Sistemi" : t.language === "en" ? "File System" : "Souborový systém"}
+                  {t("language") === "tr" ? "Dosya Sistemi" : t("language") === "en" ? "File System" : "Souborový systém"}
                 </div>
                 <div className="text-sm text-green-600">
-                  {t.language === "tr" ? "Çalışıyor" : t.language === "en" ? "Running" : "Běží"}
+                  {t("language") === "tr" ? "Çalışıyor" : t("language") === "en" ? "Running" : "Běží"}
                 </div>
               </div>
             </div>

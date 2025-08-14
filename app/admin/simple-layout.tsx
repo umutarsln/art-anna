@@ -8,6 +8,9 @@ import { LayoutDashboard, ImageIcon, FileText, MessageSquare, Settings, LogOut, 
 import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/contexts/language-context"
 
+/**
+ * Basit admin layout bileşeni - Sidebar ve ana içerik alanı
+ */
 export default function SimpleAdminLayout({ children }: { children: React.ReactNode }) {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
   const [loading, setLoading] = useState(true)
@@ -17,13 +20,13 @@ export default function SimpleAdminLayout({ children }: { children: React.ReactN
   const { t } = useLanguage()
 
   const adminNavItems = [
-    { href: "/admin", label: t.admin.dashboard.title, icon: LayoutDashboard },
-    { href: "/admin/artworks", label: t.admin.artworks.title, icon: ImageIcon },
-    { href: "/admin/blog", label: t.admin.blog.title, icon: FileText },
-    { href: "/admin/messages", label: t.admin.messages.title, icon: MessageSquare },
+    { href: "/admin", label: t("admin.dashboard.title"), icon: LayoutDashboard },
+    { href: "/admin/artworks", label: t("admin.artworks.title"), icon: ImageIcon },
+    { href: "/admin/blog", label: t("admin.blog.title"), icon: FileText },
+    { href: "/admin/messages", label: t("admin.messages.title"), icon: MessageSquare },
     {
       href: "/admin/settings",
-      label: t.language === "tr" ? "Ayarlar" : t.language === "en" ? "Settings" : "Nastavení",
+      label: t("language") === "tr" ? "Ayarlar" : t("language") === "en" ? "Settings" : "Nastavení",
       icon: Settings,
     },
   ]
@@ -87,7 +90,7 @@ export default function SimpleAdminLayout({ children }: { children: React.ReactN
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
-          <p className="text-gray-600">{t.common.loading}</p>
+          <p className="text-gray-600">{t("common.loading")}</p>
           <p className="text-xs text-gray-400 mt-2">Path: {pathname}</p>
         </div>
       </div>
@@ -99,13 +102,13 @@ export default function SimpleAdminLayout({ children }: { children: React.ReactN
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
           <p className="text-gray-600 mb-4">
-            {t.language === "tr"
+            {t("language") === "tr"
               ? "Oturum açmanız gerekiyor"
-              : t.language === "en"
+              : t("language") === "en"
                 ? "You need to log in"
                 : "Musíte se přihlásit"}
           </p>
-          <Button onClick={() => router.push("/admin/login")}>{t.admin.login.login}</Button>
+          <Button onClick={() => router.push("/admin/login")}>{t("admin.login.login")}</Button>
           <p className="text-xs text-gray-400 mt-2">Current path: {pathname}</p>
         </div>
       </div>
@@ -132,7 +135,7 @@ export default function SimpleAdminLayout({ children }: { children: React.ReactN
             <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
               <span className="text-white font-bold text-sm">A</span>
             </div>
-            <span className="font-serif text-lg font-semibold text-gray-800">{t.admin.title}</span>
+            <span className="font-serif text-lg font-semibold text-gray-800">{t("admin.title")}</span>
           </div>
           <Button variant="ghost" size="sm" className="lg:hidden" onClick={() => setSidebarOpen(false)}>
             <X className="h-4 w-4" />
@@ -180,7 +183,7 @@ export default function SimpleAdminLayout({ children }: { children: React.ReactN
             onClick={handleLogout}
           >
             <LogOut className="mr-2 h-4 w-4" />
-            {t.language === "tr" ? "Çıkış Yap" : t.language === "en" ? "Logout" : "Odhlásit se"}
+            {t("language") === "tr" ? "Çıkış Yap" : t("language") === "en" ? "Logout" : "Odhlásit se"}
           </Button>
         </div>
       </div>
@@ -195,7 +198,7 @@ export default function SimpleAdminLayout({ children }: { children: React.ReactN
             </Button>
             <div className="flex items-center space-x-4">
               <span className="text-sm text-gray-500">
-                {t.language === "tr" ? "Hoş geldin, Admin" : t.language === "en" ? "Welcome, Admin" : "Vítej, Admin"}
+                {t("language") === "tr" ? "Hoş geldin, Admin" : t("language") === "en" ? "Welcome, Admin" : "Vítej, Admin"}
               </span>
             </div>
           </div>

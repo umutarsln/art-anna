@@ -9,6 +9,9 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Eye, EyeOff, Lock, Mail, AlertCircle } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
 
+/**
+ * Admin giriş sayfası - Yönetim paneline erişim için giriş formu
+ */
 export default function AdminLoginPage() {
   const [email, setEmail] = useState("admin@sanatci.com")
   const [password, setPassword] = useState("admin123")
@@ -46,11 +49,11 @@ export default function AdminLoginPage() {
           window.location.href = "/admin"
         }, 100)
       } else {
-        setError(t.admin.login.error)
+        setError(t("admin.login.error"))
       }
     } catch (error) {
       console.error("Login error:", error)
-      setError(t.common.error)
+      setError(t("common.error"))
     } finally {
       setLoading(false)
     }
@@ -64,8 +67,8 @@ export default function AdminLoginPage() {
             <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
               <span className="text-white font-bold text-3xl">A</span>
             </div>
-            <CardTitle className="text-3xl font-serif font-bold text-gray-900">{t.admin.title}</CardTitle>
-            <p className="text-gray-600 mt-2">{t.admin.login.title}</p>
+            <CardTitle className="text-3xl font-serif font-bold text-gray-900">{t("admin.title")}</CardTitle>
+            <p className="text-gray-600 mt-2">{t("admin.login.title")}</p>
           </CardHeader>
 
           <CardContent className="px-8 pb-8">
@@ -79,7 +82,7 @@ export default function AdminLoginPage() {
 
               <div className="space-y-2">
                 <label htmlFor="email" className="text-sm font-medium text-gray-700 block">
-                  {t.admin.login.email}
+                  {t("admin.login.email")}
                 </label>
                 <div className="relative">
                   <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
@@ -98,7 +101,7 @@ export default function AdminLoginPage() {
 
               <div className="space-y-2">
                 <label htmlFor="password" className="text-sm font-medium text-gray-700 block">
-                  {t.admin.login.password}
+                  {t("admin.login.password")}
                 </label>
                 <div className="relative">
                   <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
@@ -131,10 +134,10 @@ export default function AdminLoginPage() {
                 {loading ? (
                   <div className="flex items-center">
                     <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2"></div>
-                    {t.common.loading}
+                    {t("common.loading")}
                   </div>
                 ) : (
-                  t.admin.login.login
+                  t("admin.login.login")
                 )}
               </Button>
             </form>
@@ -142,18 +145,18 @@ export default function AdminLoginPage() {
             {/* Demo Information */}
             <div className="mt-8 p-4 bg-blue-50 rounded-lg border border-blue-200">
               <h4 className="text-sm font-medium text-blue-900 mb-2">
-                {t.language === "tr"
+                {t("language") === "tr"
                   ? "Demo Hesap Bilgileri:"
-                  : t.language === "en"
+                  : t("language") === "en"
                     ? "Demo Account Info:"
                     : "Demo účet:"}
               </h4>
               <div className="text-sm text-blue-700 space-y-1">
                 <p>
-                  <strong>{t.admin.login.email}:</strong> admin@sanatci.com
+                  <strong>{t("admin.login.email")}:</strong> admin@sanatci.com
                 </p>
                 <p>
-                  <strong>{t.admin.login.password}:</strong> admin123
+                  <strong>{t("admin.login.password")}:</strong> admin123
                 </p>
               </div>
             </div>
