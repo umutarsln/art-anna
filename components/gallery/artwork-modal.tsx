@@ -3,9 +3,7 @@
 import { useState } from "react"
 import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
-import { X, Eye, Image as ImageIcon } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { FluidGlass } from "@/components/ui/fluid-glass"
+import { X, Calendar, Palette, Ruler, User } from "lucide-react"
 import { useLanguageStore } from "@/lib/store"
 import type { GalleryImage } from "@/lib/gallery-images"
 
@@ -16,8 +14,6 @@ interface ArtworkModalProps {
 
 export function ArtworkModal({ artwork, onClose }: ArtworkModalProps) {
   const { t } = useLanguageStore()
-  const [viewMode, setViewMode] = useState<"image" | "fluid-glass">("image")
-  const [glassMode, setGlassMode] = useState<"lens" | "bar" | "cube">("lens")
 
   if (!artwork) return null
 
@@ -53,128 +49,108 @@ export function ArtworkModal({ artwork, onClose }: ArtworkModalProps) {
           className="bg-white rounded-2xl max-w-6xl w-full max-h-[90vh] overflow-hidden"
           onClick={(e) => e.stopPropagation()}
         >
-          <div className="relative">
-            {/* Header Controls */}
-            <div className="absolute top-4 right-4 z-10 flex items-center gap-2">
-              <div className="flex items-center gap-2 bg-white/80 backdrop-blur-sm rounded-lg p-2">
-                <Button
-                  variant={viewMode === "image" ? "default" : "ghost"}
-                  size="sm"
-                  onClick={() => setViewMode("image")}
-                  className="flex items-center gap-2"
-                >
-                  <ImageIcon className="h-4 w-4" />
-                  {t("gallery.modal.normalView")}
-                </Button>
-                <Button
-                  variant={viewMode === "fluid-glass" ? "default" : "ghost"}
-                  size="sm"
-                  onClick={() => setViewMode("fluid-glass")}
-                  className="flex items-center gap-2"
-                >
-                  <Eye className="h-4 w-4" />
-                  {t("gallery.modal.glassView")}
-                </Button>
-              </div>
-              <Button
-                variant="ghost"
-                size="icon"
-                className="bg-white/80 backdrop-blur-sm hover:bg-white"
+          <div className="grid lg:grid-cols-2 gap-0">
+            {/* Image Section */}
+            <div className="relative">
+              <Image
+                src={artwork.image_url || "/placeholder.svg"}
+                alt={artwork.title}
+                width={800}
+                height={600}
+                className="w-full h-full object-cover"
+              />
+              <button
                 onClick={onClose}
+                className="absolute top-4 right-4 w-10 h-10 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white transition-colors"
               >
-                <X className="h-4 w-4" />
-              </Button>
+                <X className="h-5 w-5 text-gray-700" />
+              </button>
             </div>
-
-            {/* Glass Mode Selector */}
-            {viewMode === "fluid-glass" && (
-              <div className="absolute top-4 left-4 z-10">
-                <div className="bg-white/80 backdrop-blur-sm rounded-lg p-2">
-                  <div className="flex items-center gap-2">
-                    <span className="text-sm font-medium text-gray-700">{t("gallery.modal.glassMode")}</span>
-                    <Button
-                      variant={glassMode === "lens" ? "default" : "ghost"}
-                      size="sm"
-                      onClick={() => setGlassMode("lens")}
-                    >
-                      {t("gallery.modal.lens")}
-                    </Button>
-                    <Button
-                      variant={glassMode === "bar" ? "default" : "ghost"}
-                      size="sm"
-                      onClick={() => setGlassMode("bar")}
-                    >
-                      {t("gallery.modal.bar")}
-                    </Button>
-                    <Button
-                      variant={glassMode === "cube" ? "default" : "ghost"}
-                      size="sm"
-                      onClick={() => setGlassMode("cube")}
-                    >
-                      {t("gallery.modal.cube")}
-                    </Button>
-                  </div>
-                </div>
-              </div>
-            )}
-
-            {/* Content */}
-            <div className="aspect-video relative">
-              {viewMode === "image" ? (
-                <Image
-                  src={artwork.image_url || "/placeholder.svg"}
-                  alt={artwork.title}
-                  fill
-                  className="object-cover"
-                />
-              ) : (
-                <div className="w-full h-full bg-gradient-to-br from-blue-900 via-purple-900 to-pink-900 relative overflow-hidden">
-                  <div className="absolute inset-0">
-                    <FluidGlass 
-                      mode={glassMode}
-                      lensProps={{
-                        scale: 0.25,
-                        ior: 1.15,
-                        thickness: 5,
-                        chromaticAberration: 0.1,
-                        anisotropy: 0.01
-                      }}
-                      barProps={{
-                        scale: 1,
-                        speed: 1
-                      }}
-                      cubeProps={{
-                        scale: 1,
-                        rotation: 1
-                      }}
-                    />
-                  </div>
-                  {/* Mouse interaction overlay */}
-                  <div className="absolute inset-0 pointer-events-none">
-                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white/30 text-sm">
-                      {t("gallery.modal.mouseHint")}
-                    </div>
-                  </div>
-                </div>
-              )}
-            </div>
-
+            
             {/* Info Section */}
-            <div className="p-8">
-              <div className="text-sm text-blue-600 font-medium mb-2">
+            <div className="p-8 space-y-6 overflow-y-auto">
+              {/* Category Badge */}
+              <div className="inline-block px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
                 {getCategoryLabel(artwork.category)}
               </div>
-              <h2 className="font-serif text-3xl font-bold text-gray-900 mb-4">{artwork.title}</h2>
-              <p className="text-gray-600 leading-relaxed">{artwork.description}</p>
-              
-              {/* View Mode Info */}
-              {viewMode === "fluid-glass" && (
-                <div className="mt-4 p-4 bg-blue-50 rounded-lg">
-                  <p className="text-sm text-blue-700">
-                    <strong>{t("gallery.modal.glassInfo")}</strong>
-                  </p>
+
+              {/* Title */}
+              <h2 className="font-serif text-3xl font-bold text-gray-900">
+                {artwork.title}
+              </h2>
+
+              {/* Meta Information */}
+              <div className="grid grid-cols-2 gap-4">
+                <div className="flex items-center gap-2">
+                  <Calendar className="h-4 w-4 text-gray-500" />
+                  <div>
+                    <div className="text-xs text-gray-500">Yıl</div>
+                    <div className="font-medium text-gray-900">{artwork.year}</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Palette className="h-4 w-4 text-gray-500" />
+                  <div>
+                    <div className="text-xs text-gray-500">Teknik</div>
+                    <div className="font-medium text-gray-900">{artwork.medium}</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Ruler className="h-4 w-4 text-gray-500" />
+                  <div>
+                    <div className="text-xs text-gray-500">Boyut</div>
+                    <div className="font-medium text-gray-900">{artwork.dimensions}</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <User className="h-4 w-4 text-gray-500" />
+                  <div>
+                    <div className="text-xs text-gray-500">Sanatçı</div>
+                    <div className="font-medium text-gray-900">{artwork.artist}</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Full Description */}
+              <div>
+                <h3 className="font-serif text-lg font-semibold text-gray-900 mb-3">
+                  Eser Açıklaması
+                </h3>
+                <p className="text-gray-600 leading-relaxed text-base">
+                  {artwork.description}
+                </p>
+              </div>
+
+              {/* Tags */}
+              {artwork.tags && artwork.tags.length > 0 && (
+                <div>
+                  <h3 className="font-serif text-lg font-semibold text-gray-900 mb-3">
+                    Etiketler
+                  </h3>
+                  <div className="flex flex-wrap gap-2">
+                    {artwork.tags.map((tag, index) => (
+                      <span
+                        key={index}
+                        className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               )}
+
+              {/* Call to Action */}
+              <div className="pt-4 border-t border-gray-200">
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <button className="px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors">
+                    Benzer Eser İste
+                  </button>
+                  <button className="px-6 py-3 border border-gray-300 text-gray-700 rounded-lg font-medium hover:bg-gray-50 transition-colors">
+                    İletişime Geç
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </motion.div>

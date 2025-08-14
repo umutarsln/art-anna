@@ -17,7 +17,7 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
  * Dil sağlayıcı bileşeni - Uygulama genelinde dil desteği sağlar
  */
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguage] = useState<Language>("tr")
+  const [language, setLanguage] = useState<Language>("en")
 
   useEffect(() => {
     // Load saved language from localStorage

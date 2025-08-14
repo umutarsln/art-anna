@@ -15,7 +15,7 @@ export function AboutStatsSection() {
       icon: Award, 
       label: t("about.stats.completedProjects"), 
       value: "150+",
-      description: "Tamamlanan proje ve eser sayısı",
+      description: t("about.stats.completedProjectsDescription"),
       color: "text-yellow-600",
       bgColor: "bg-yellow-100"
     },
@@ -23,23 +23,23 @@ export function AboutStatsSection() {
       icon: Users, 
       label: t("about.stats.happyClients"), 
       value: "50+",
-      description: "Memnun müşteri ve koleksiyoner",
+      description: t("about.stats.happyClientsDescription"),
       color: "text-green-600",
       bgColor: "bg-green-100"
     },
     { 
       icon: Palette, 
-      label: "Teknik Çeşitlilik", 
+      label: t("about.stats.technicalDiversity"), 
       value: "12+",
-      description: "Farklı sanat tekniği ve medya",
+      description: t("about.stats.technicalDiversityDescription"),
       color: "text-purple-600",
       bgColor: "bg-purple-100"
     },
     { 
       icon: Globe, 
-      label: "Uluslararası Sergi", 
+      label: t("about.stats.internationalExhibition"), 
       value: "8+",
-      description: "Yurtdışında katılım gösterilen sergi",
+      description: t("about.stats.internationalExhibitionDescription"),
       color: "text-blue-600",
       bgColor: "bg-blue-100"
     },
@@ -47,7 +47,7 @@ export function AboutStatsSection() {
       icon: Coffee, 
       label: t("about.stats.coffee"), 
       value: "1000+",
-      description: "Yaratım sürecinde tüketilen kahve",
+      description: t("about.stats.coffeeDescription"),
       color: "text-orange-600",
       bgColor: "bg-orange-100"
     },
@@ -55,7 +55,7 @@ export function AboutStatsSection() {
       icon: Calendar, 
       label: t("about.stats.experience"), 
       value: "5+",
-      description: "Yıllık profesyonel deneyim",
+      description: t("about.stats.experienceDescription"),
       color: "text-red-600",
       bgColor: "bg-red-100"
     }
@@ -66,10 +66,10 @@ export function AboutStatsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="font-serif text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-            Sayılarla Sanatçı
+            {t("about.stats.title")}
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Sanatsal yolculuğumda elde ettiğim başarılar ve deneyimlerin sayısal özeti
+            {t("about.stats.subtitle")}
           </p>
         </div>
 
@@ -98,12 +98,10 @@ export function AboutStatsSection() {
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8 border border-blue-100">
             <h3 className="font-serif text-2xl font-semibold text-gray-900 mb-4">
-              Sürekli Gelişim ve Yenilik
+              {t("about.stats.continuousDevelopment")}
             </h3>
             <p className="text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Her yeni proje, her yeni teknik deneyimi beni daha da geliştiriyor. 
-              Sanatın sınırlarını zorlayarak, geleneksel ve çağdaş yaklaşımları 
-              harmanlayarak özgün eserler yaratmaya devam ediyorum.
+              {t("about.stats.continuousDevelopmentText")}
             </p>
           </div>
         </div>

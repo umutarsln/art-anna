@@ -61,10 +61,10 @@ export function AboutHeroSection() {
                 
                 <blockquote className="border-l-4 border-blue-600 pl-6 py-4 bg-gray-50 rounded-r-lg">
                   <p className="font-serif text-xl lg:text-2xl text-gray-900 italic leading-relaxed">
-                    "Sanat, görüneni görünmez kılmak ve görünmeyeni görünür kılmak sanatıdır."
+                    "{t("about.hero.manifesto")}"
                   </p>
                   <cite className="text-sm text-gray-600 mt-2 block">
-                    — Kişisel Sanat Manifestosu, 2024
+                    — {t("about.hero.manifestoSource")}
                   </cite>
                 </blockquote>
 
@@ -75,11 +75,11 @@ export function AboutHeroSection() {
                 <div className="grid grid-cols-2 gap-6 pt-4">
                   <div className="text-center">
                     <div className="font-serif text-3xl lg:text-4xl font-bold text-blue-600">15+</div>
-                    <div className="text-sm text-gray-600">Yıllık Deneyim</div>
+                    <div className="text-sm text-gray-600">{t("about.hero.experience")}</div>
                   </div>
                   <div className="text-center">
                     <div className="font-serif text-3xl lg:text-4xl font-bold text-blue-600">200+</div>
-                    <div className="text-sm text-gray-600">Tamamlanan Eser</div>
+                    <div className="text-sm text-gray-600">{t("about.hero.completedWorks")}</div>
                   </div>
                 </div>
               </div>

@@ -34,6 +34,14 @@
         "startAutoPlay": "Otomatik geçişi başlat"
       }
     },
+    "home": {
+      "blog": {
+        "title": "Son Yazılar",
+        "subtitle": "Sanat, teknik ve yaratıcılık üzerine düşüncelerimi paylaştığım blog yazıları",
+        "readMore": "Devamını Oku",
+        "viewAll": "Tüm Yazıları Gör"
+      }
+    },
     "featuredWorks": {
       "title": "Öne Çıkan Çalışmalar",
       "subtitle": "Son dönemde ürettiğim ve özel önem verdiğim eserlerden bir seçki",
@@ -45,7 +53,7 @@
     },
     "gallery": {
       "title": "Sanat Galerisi",
-      "subtitle": "Dijital çizim ve fotoğraf çalışmalarımdan oluşan koleksiyonum. Her eser, farklı bir hikaye anlatır.",
+      "subtitle": "Dijital sanattan fotoğrafa, karma tekniklerden geleneksel yöntemlere kadar sanatsal yolculuğumun önemli eserlerini keşfedin",
       "categories": {
         "all": "Tümü",
         "digital": "Dijital Çizim",
@@ -63,6 +71,12 @@
         "cube": "Cube",
         "glassInfo": "3D Liquid Glass Modu: Bu fotoğrafı 3D cam efekti ile inceleyebilirsiniz. Farklı modları deneyerek eserin farklı açılardan görünümünü keşfedin.",
         "mouseHint": "Mouse'u hareket ettirin"
+      },
+      "callToAction": {
+        "title": "Özel Proje İçin İletişime Geçin",
+        "subtitle": "Belirli bir stil veya konsept için özel eser yaratmak istiyorsanız, projenizi tartışmak için benimle iletişime geçin.",
+        "requestProject": "Proje Talep Et",
+        "viewPortfolio": "Portföy İncele"
       }
     },
     "aboutPreview": {
@@ -89,7 +103,11 @@
         "artist": "Sanatçı",
         "description1": "5 yılı aşkın süredir dijital sanat ve fotoğraf alanında çalışmalar yürütüyorum. Sanat, benim için sadece bir meslek değil, aynı zamanda hayatımın vazgeçilmez bir parçası.",
         "description2": "Her eserimde, duyguları renklere ve formlara dönüştürme tutkumu yansıtmaya çalışıyorum. Teknoloji ve sanatın buluştuğu noktada, geleneksel teknikleri modern araçlarla harmanlayarak özgün eserler üretmeyi hedefliyorum.",
-        "portraitAlt": "Sanatçı Portresi"
+        "portraitAlt": "Sanatçı Portresi",
+        "manifesto": "Sanat, görüneni görünmez kılmak ve görünmeyeni görünür kılmak sanatıdır.",
+        "manifestoSource": "Kişisel Sanat Manifestosu, 2024",
+        "experience": "Yıllık Deneyim",
+        "completedWorks": "Tamamlanan Eser"
       },
       "skills": {
         "title": "Uzmanlık Alanlarım",
@@ -99,13 +117,40 @@
         "conceptArt": "Konsept Sanatı",
         "uiux": "UI/UX Tasarım",
         "threeD": "3D Modelleme",
-        "workspaceAlt": "Çalışma Alanı"
+        "workspaceAlt": "Çalışma Alanı",
+        "expertiseAreas": "Uzmanlık Alanları",
+        "continueLearning": "Yeni Teknikler Öğrenmeye Devam",
+        "continueLearningText": "Sanat teknolojilerindeki gelişmeleri takip ederek sürekli kendimi geliştiriyorum.",
+        "viewTechnicalDetails": "Teknik Detayları İncele",
+        "digital": "Dijital",
+        "traditional": "Geleneksel",
+        "concept": "Konsept",
+        "threeDModeling": "3D",
+        "traditionalPainting": "Geleneksel Resim",
+        "digitalIllustrationDescription": "Dijital araçlarla profesyonel illüstrasyon ve konsept sanat",
+        "photographyDescription": "Portre, manzara ve sanatsal fotoğrafçılık teknikleri",
+        "conceptArtDescription": "Film, oyun ve reklam için konsept sanat tasarımı",
+        "uiuxDescription": "Kullanıcı deneyimi ve arayüz tasarımı",
+        "threeDDescription": "3D modelleme ve dijital heykel sanatı",
+        "traditionalPaintingDescription": "Yağlı boya, akrilik ve sulu boya teknikleri"
       },
       "stats": {
+        "title": "Sayılarla Sanatçı",
+        "subtitle": "Sanatsal yolculuğumda elde ettiğim başarılar ve deneyimlerin sayısal özeti",
         "completedProjects": "Tamamlanan Proje",
         "happyClients": "Mutlu Müşteri",
         "coffee": "İçilen Kahve",
-        "experience": "Deneyim Yılı"
+        "experience": "Deneyim Yılı",
+        "technicalDiversity": "Teknik Çeşitlilik",
+        "internationalExhibition": "Uluslararası Sergi",
+        "continuousDevelopment": "Sürekli Gelişim ve Yenilik",
+        "continuousDevelopmentText": "Her yeni proje, her yeni teknik deneyimi beni daha da geliştiriyor. Sanatın sınırlarını zorlayarak, geleneksel ve çağdaş yaklaşımları harmanlayarak özgün eserler yaratmaya devam ediyorum.",
+        "completedProjectsDescription": "Tamamlanan proje ve eser sayısı",
+        "happyClientsDescription": "Memnun müşteri ve koleksiyoner",
+        "technicalDiversityDescription": "Farklı sanat tekniği ve medya",
+        "internationalExhibitionDescription": "Yurtdışında katılım gösterilen sergi",
+        "coffeeDescription": "Yaratım sürecinde tüketilen kahve",
+        "experienceDescription": "Yıllık profesyonel deneyim"
       },
       "artistStatement": {
         "title": "Sanatçı Açıklaması",
@@ -363,6 +408,14 @@
       "workingNow": "Working now",
       "newProject": "New project"
     },
+    "home": {
+      "blog": {
+        "title": "Latest Posts",
+        "subtitle": "My blog posts sharing thoughts on art, technique and creativity",
+        "readMore": "Read More",
+        "viewAll": "View All Posts"
+      }
+    },
     "featuredWorks": {
       "title": "Featured Works",
       "subtitle": "A selection of works I've produced recently and attach special importance to",
@@ -374,7 +427,7 @@
     },
     "gallery": {
       "title": "Art Gallery",
-      "subtitle": "My collection of digital art and photography works. Each piece tells a different story.",
+      "subtitle": "Explore the important works of my artistic journey from digital art to photography, from mixed techniques to traditional methods",
       "categories": {
         "all": "All",
         "digital": "Digital Art",
@@ -392,6 +445,12 @@
         "cube": "Cube",
         "glassInfo": "3D Liquid Glass Mode: You can examine this photo with 3D glass effect. Explore the artwork from different angles by trying different modes.",
         "mouseHint": "Move your mouse"
+      },
+      "callToAction": {
+        "title": "Contact for Special Project",
+        "subtitle": "If you want to create a special piece for a specific style or concept, contact me to discuss your project.",
+        "requestProject": "Request Project",
+        "viewPortfolio": "View Portfolio"
       }
     },
     "aboutPreview": {
@@ -418,7 +477,11 @@
         "artist": "Artist",
         "description1": "I have been working in digital art and photography for over 5 years. Art is not just a profession for me, but also an indispensable part of my life.",
         "description2": "In every piece, I try to reflect my passion for transforming emotions into colors and forms. At the intersection of technology and art, I aim to produce unique works by blending traditional techniques with modern tools.",
-        "portraitAlt": "Artist Portrait"
+        "portraitAlt": "Artist Portrait",
+        "manifesto": "Art is the art of making the visible invisible and the invisible visible.",
+        "manifestoSource": "Personal Art Manifesto, 2024",
+        "experience": "Years Experience",
+        "completedWorks": "Completed Works"
       },
       "skills": {
         "title": "My Areas of Expertise",
@@ -431,10 +494,22 @@
         "workspaceAlt": "Workspace"
       },
       "stats": {
+        "title": "Artist by Numbers",
+        "subtitle": "Numerical summary of achievements and experiences in my artistic journey",
         "completedProjects": "Completed Projects",
         "happyClients": "Happy Clients",
         "coffee": "Coffee Consumed",
-        "experience": "Years Experience"
+        "experience": "Years Experience",
+        "technicalDiversity": "Technical Diversity",
+        "internationalExhibition": "International Exhibition",
+        "continuousDevelopment": "Continuous Development and Innovation",
+        "continuousDevelopmentText": "Every new project, every new technical experience develops me further. I continue to create unique works by pushing the boundaries of art, blending traditional and contemporary approaches.",
+        "completedProjectsDescription": "Number of completed projects and works",
+        "happyClientsDescription": "Satisfied customers and collectors",
+        "technicalDiversityDescription": "Different art techniques and media",
+        "internationalExhibitionDescription": "Exhibitions participated abroad",
+        "coffeeDescription": "Coffee consumed during creation process",
+        "experienceDescription": "Years of professional experience"
       },
       "artistStatement": {
         "title": "Artist Statement",
@@ -692,9 +767,17 @@
       "workingNow": "Právě pracuje",
       "newProject": "Nový projekt"
     },
+    "home": {
+      "blog": {
+        "title": "Nejnovější příspěvky",
+        "subtitle": "Mé blogové příspěvky sdílející myšlenky o umění, technice a kreativitě",
+        "readMore": "Číst více",
+        "viewAll": "Zobrazit všechny příspěvky"
+      }
+    },
     "featuredWorks": {
       "title": "Vybraná díla",
-      "subtitle": "Výběr děl, která jsem nedávno vytvořil a kterým přikládám zvláštní význam",
+      "subtitle": "Výběr děl, která jsem nedávno vytvořil a kterým přikládám zvláştní význam",
       "digitalArt": "Digitální umění",
       "photography": "Fotografie",
       "viewDetails": "Zobrazit detaily",
@@ -703,13 +786,21 @@
     },
     "gallery": {
       "title": "Umělecká galerie",
-      "subtitle": "Moje sbírka děl digitálního umění a fotografie. Každé dílo vypráví jiný příběh.",
+      "subtitle": "Prozkoumejte důležitá díla mé umělecké cesty od digitálního umění po fotografii, od smíšených technik po tradiční metody",
       "categories": {
         "all": "Vše",
         "digital": "Digitální umění",
-        "photography": "Fotografie"
+        "photography": "Fotografie",
+        "painting": "Malba",
+        "sculpture": "Sochařství"
       },
-      "noWorks": "V této kategorii zatím nejsou k dispozici žádná díla."
+      "noWorks": "V této kategorii zatím nejsou k dispozici žádná díla.",
+      "callToAction": {
+        "title": "Kontakt pro speciální projekt",
+        "subtitle": "Pokud chcete vytvořit speciální dílo pro konkrétní styl nebo koncept, kontaktujte mě pro diskusi o vašem projektu.",
+        "requestProject": "Požádat o projekt",
+        "viewPortfolio": "Zobrazit portfolio"
+      }
     },
     "aboutPreview": {
       "title": "Umění je",
@@ -734,8 +825,12 @@
         "greeting": "Ahoj, jsem",
         "artist": "Umělec",
         "description1": "Více než 5 let se věnuji digitálnímu umění a fotografii. Umění pro mě není jen povolání, ale také nedílná součást mého života.",
-        "description2": "V každém díle se snažím odrážet svou vášeň pro přeměnu emocí na barvy a formy. Na průsečíku technologie a umění se snažím vytvářet jedinečná díla kombinováním tradičních technik s moderními nástroji.",
-        "portraitAlt": "Portrét umělce"
+        "description2": "V každém díle se snažím odrážet svou vášeň pro přeměnu emocí na barvy a formy. Na průsečíku technologie a umění se snažim vytvářet jedinečná díla kombinováním tradičních technik s moderními nástroji.",
+        "portraitAlt": "Portrét umělce",
+        "manifesto": "Umění je umění učinit viditelné neviditelným a neviditelné viditelným.",
+        "manifestoSource": "Osobní umělecký manifest, 2024",
+        "experience": "Roky zkušeností",
+        "completedWorks": "Dokončená díla"
       },
       "skills": {
         "title": "Moje oblasti odbornosti",
@@ -748,10 +843,22 @@
         "workspaceAlt": "Pracovní prostor"
       },
       "stats": {
+        "title": "Umělec v číslech",
+        "subtitle": "Číselné shrnutí úspěchů a zkušeností v mé umělecké cestě",
         "completedProjects": "Dokončené projekty",
         "happyClients": "Spokojení klienti",
         "coffee": "Vypitá káva",
-        "experience": "Roky zkušeností"
+        "experience": "Roky zkušeností",
+        "technicalDiversity": "Technická rozmanitost",
+        "internationalExhibition": "Mezinárodní výstava",
+        "continuousDevelopment": "Průběžný rozvoj a inovace",
+        "continuousDevelopmentText": "Každý nový projekt, každá nová technická zkušenost mě dále rozvíjí. Pokračuji v tvorbě jedinečných děl tím, že překračuji hranice umění, kombinuji tradiční a současné přístupy.",
+        "completedProjectsDescription": "Počet dokončených projektů a děl",
+        "happyClientsDescription": "Spokojení zákazníci a sběratelé",
+        "technicalDiversityDescription": "Různé umělecké techniky a média",
+        "internationalExhibitionDescription": "Výstavy, kterých jsem se zúčastnil v zahraničí",
+        "coffeeDescription": "Káva vypitá během tvůrčího procesu",
+        "experienceDescription": "Roky profesionálních zkušeností"
       },
       "artistStatement": {
         "title": "Umělecké vyjádření",

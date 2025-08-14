@@ -16,52 +16,52 @@ export function AboutSkillsSection() {
     { 
       name: t("about.skills.digitalIllustration"), 
       level: 95,
-      description: "Dijital araçlarla profesyonel illüstrasyon ve konsept sanat",
+      description: t("about.skills.digitalIllustrationDescription"),
       icon: "🎨",
-      category: "Dijital"
+      category: t("about.skills.digital")
     },
     { 
       name: t("about.skills.photography"), 
       level: 88,
-      description: "Portre, manzara ve sanatsal fotoğrafçılık teknikleri",
+      description: t("about.skills.photographyDescription"),
       icon: "📸",
-      category: "Geleneksel"
+      category: t("about.skills.traditional")
     },
     { 
       name: t("about.skills.conceptArt"), 
       level: 92,
-      description: "Film, oyun ve reklam için konsept sanat tasarımı",
+      description: t("about.skills.conceptArtDescription"),
       icon: "🎭",
-      category: "Konsept"
+      category: t("about.skills.concept")
     },
     { 
       name: t("about.skills.uiux"), 
       level: 85,
-      description: "Kullanıcı deneyimi ve arayüz tasarımı",
+      description: t("about.skills.uiuxDescription"),
       icon: "💻",
-      category: "Dijital"
+      category: t("about.skills.digital")
     },
     { 
       name: t("about.skills.threeD"), 
       level: 78,
-      description: "3D modelleme ve dijital heykel sanatı",
+      description: t("about.skills.threeDDescription"),
       icon: "🗿",
-      category: "3D"
+      category: t("about.skills.threeDModeling")
     },
     {
-      name: "Geleneksel Resim",
+      name: t("about.skills.traditionalPainting"),
       level: 90,
-      description: "Yağlı boya, akrilik ve sulu boya teknikleri",
+      description: t("about.skills.traditionalPaintingDescription"),
       icon: "🖼️",
-      category: "Geleneksel"
+      category: t("about.skills.traditional")
     }
   ]
 
   const skillCategories = [
-    { name: "Dijital", color: "bg-blue-100 text-blue-800", count: 3 },
-    { name: "Geleneksel", color: "bg-green-100 text-green-800", count: 2 },
-    { name: "Konsept", color: "bg-purple-100 text-purple-800", count: 1 },
-    { name: "3D", color: "bg-orange-100 text-orange-800", count: 1 }
+    { name: t("about.skills.digital"), color: "bg-blue-100 text-blue-800", count: 3 },
+    { name: t("about.skills.traditional"), color: "bg-green-100 text-green-800", count: 2 },
+    { name: t("about.skills.concept"), color: "bg-purple-100 text-purple-800", count: 1 },
+    { name: t("about.skills.threeDModeling"), color: "bg-orange-100 text-orange-800", count: 1 }
   ]
 
   return (
@@ -83,7 +83,7 @@ export function AboutSkillsSection() {
             {/* Skill Categories */}
             <div className="mb-8">
               <h3 className="font-serif text-lg font-semibold text-gray-900 mb-4">
-                Uzmanlık Alanları
+                {t("about.skills.expertiseAreas")}
               </h3>
               <div className="flex flex-wrap gap-3">
                 {skillCategories.map((category) => (
@@ -108,9 +108,9 @@ export function AboutSkillsSection() {
                         <div>
                           <span className="font-medium text-gray-900">{skill.name}</span>
                           <span className={`ml-2 px-2 py-1 rounded-full text-xs font-medium ${
-                            skill.category === 'Dijital' ? 'bg-blue-100 text-blue-800' :
-                            skill.category === 'Geleneksel' ? 'bg-green-100 text-green-800' :
-                            skill.category === 'Konsept' ? 'bg-purple-100 text-purple-800' :
+                            skill.category === t("about.skills.digital") ? 'bg-blue-100 text-blue-800' :
+                            skill.category === t("about.skills.traditional") ? 'bg-green-100 text-green-800' :
+                            skill.category === t("about.skills.concept") ? 'bg-purple-100 text-purple-800' :
                             'bg-orange-100 text-orange-800'
                           }`}>
                             {skill.category}
@@ -141,13 +141,13 @@ export function AboutSkillsSection() {
             {/* Call to Action */}
             <div className="mt-8 p-6 bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl border border-blue-100">
               <h4 className="font-serif text-lg font-semibold text-gray-900 mb-2">
-                Yeni Teknikler Öğrenmeye Devam
+                {t("about.skills.continueLearning")}
               </h4>
               <p className="text-sm text-gray-600 mb-4">
-                Sanat teknolojilerindeki gelişmeleri takip ederek sürekli kendimi geliştiriyorum.
+                {t("about.skills.continueLearningText")}
               </p>
               <button className="px-6 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors duration-300">
-                Teknik Detayları İncele
+                {t("about.skills.viewTechnicalDetails")}
               </button>
             </div>
           </div>
