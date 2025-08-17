@@ -4,8 +4,11 @@ import { FloatingElements } from "@/components/ui/floating-elements"
 import { ContactForm } from "@/components/contact/contact-form"
 import { ContactInfo } from "@/components/contact/contact-info"
 import { ContactFAQSection } from "@/components/contact/faq-section"
+import { useLanguageStore } from "@/lib/store"
 
 export default function ContactPage() {
+  const { t } = useLanguageStore()
+  
   return (
     <div className="min-h-screen bg-white relative">
       <FloatingElements />
@@ -14,10 +17,10 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="font-serif text-5xl lg:text-7xl font-bold text-gray-900 mb-6">
-              İletişime Geçin
+              {t("contact.title")}
             </h1>
             <p className="text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-8">
-              Projeler, işbirlikleri veya sadece merhaba demek için benimle iletişime geçin.
+              {t("contact.subtitle")}
             </p>
           </div>
         </div>

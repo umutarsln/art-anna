@@ -462,16 +462,22 @@
       "education": {
         "title": "Eğitim",
         "degree1": {
-          "title": "Grafik Tasarım Lisansı",
-          "school": "Güzel Sanatlar Üniversitesi",
-          "period": "2015 - 2019",
-          "description": "Grafik tasarım, dijital sanat ve görsel iletişim alanlarında kapsamlı eğitim"
+          "title": "Máster en Dirección de Arte y Creatividad Audiovisual",
+          "school": "SHIFTA, ELISLAVA, UNIVERSITAT DE VIC, UNIVERSITAT CENTRAL DE CATALUNYA",
+          "period": "2023 - 2024",
+          "description": "Sanat yönetimi ve görsel-işitsel yaratıcılık alanında yüksek lisans eğitimi"
         },
         "degree2": {
-          "title": "Dijital Sanat Sertifikası",
-          "school": "Dijital Sanat Akademisi",
-          "period": "2020 - 2021",
-          "description": "Profesyonel dijital sanat ve illüstrasyon teknikleri eğitimi"
+          "title": "Academy of Arts, Architecture and Design",
+          "school": "Umprum, Prague, Czech Republic",
+          "period": "2016 - 2020",
+          "description": "Sanat, mimari ve tasarım alanlarında kapsamlı eğitim"
+        },
+        "degree3": {
+          "title": "Studio of Nina Beier",
+          "school": "Prague, Czech Republic",
+          "period": "2019",
+          "description": "Nina Beier stüdyosunda sanatsal çalışma ve gelişim"
         }
       },
       "skills": {
@@ -547,7 +553,10 @@
         }
       },
       "social": {
-        "title": "Sosyal Medya"
+        "title": "Sosyal Medya",
+        "instagram": "Instagram",
+        "linkedin": "LinkedIn",
+        "behance": "Behance"
       },
       "hours": {
         "title": "Çalışma Saatleri",
@@ -1046,16 +1055,22 @@
       "education": {
         "title": "Education",
         "degree1": {
-          "title": "Graphic Design Bachelor's Degree",
-          "school": "Fine Arts University",
-          "period": "2015 - 2019",
-          "description": "Comprehensive education in graphic design, digital art and visual communication"
+          "title": "Master in Art Direction and Audiovisual Creativity",
+          "school": "SHIFTA, ELISLAVA, UNIVERSITAT DE VIC, UNIVERSITAT CENTRAL DE CATALUNYA",
+          "period": "2023 - 2024",
+          "description": "Master's degree in art direction and audiovisual creativity"
         },
         "degree2": {
-          "title": "Digital Art Certificate",
-          "school": "Digital Art Academy",
-          "period": "2020 - 2021",
-          "description": "Professional digital art and illustration techniques training"
+          "title": "Academy of Arts, Architecture and Design",
+          "school": "Umprum, Prague, Czech Republic",
+          "period": "2016 - 2020",
+          "description": "Comprehensive education in arts, architecture and design"
+        },
+        "degree3": {
+          "title": "Studio of Nina Beier",
+          "school": "Prague, Czech Republic",
+          "period": "2019",
+          "description": "Artistic work and development at Nina Beier studio"
         }
       },
       "skills": {
@@ -1131,7 +1146,10 @@
         }
       },
       "social": {
-        "title": "Social Media"
+        "title": "Social Media",
+        "instagram": "Instagram",
+        "linkedin": "LinkedIn",
+        "behance": "Behance"
       },
       "hours": {
         "title": "Working Hours",
@@ -1610,16 +1628,22 @@
       "education": {
         "title": "Vzdělání",
         "degree1": {
-          "title": "Bakalářský titul v grafickém designu",
-          "school": "Univerzita výtvarných umění",
-          "period": "2015 - 2019",
-          "description": "Komplexní vzdělání v grafickém designu, digitálním umění a vizuální komunikaci"
+          "title": "Máster en Dirección de Arte y Creatividad Audiovisual",
+          "school": "SHIFTA, ELISLAVA, UNIVERSITAT DE VIC, UNIVERSITAT CENTRAL DE CATALUNYA",
+          "period": "2023 - 2024",
+          "description": "Magisterský titul v uměleckém vedení a audiovizuální kreativitě"
         },
         "degree2": {
-          "title": "Certifikát digitálního umění",
-          "school": "Akademie digitálního umění",
-          "period": "2020 - 2021",
-          "description": "Profesionální školení technik digitálního umění a ilustrace"
+          "title": "Akademie umění, architektury a designu",
+          "school": "Umprum, Praha, Česká republika",
+          "period": "2016 - 2020",
+          "description": "Komplexní vzdělání v umění, architektuře a designu"
+        },
+        "degree3": {
+          "title": "Studio Nina Beier",
+          "school": "Praha, Česká republika",
+          "period": "2019",
+          "description": "Umělecká práce a rozvoj ve studiu Nina Beier"
         }
       },
       "skills": {
@@ -1695,7 +1719,10 @@
         }
       },
       "social": {
-        "title": "Sociální sítě"
+        "title": "Sociální sítě",
+        "instagram": "Instagram",
+        "linkedin": "LinkedIn",
+        "behance": "Behance"
       },
       "hours": {
         "title": "Pracovní doba",

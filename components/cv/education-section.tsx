@@ -22,6 +22,12 @@ export function CVEducationSection() {
       period: t("cv.education.degree2.period"),
       description: t("cv.education.degree2.description"),
     },
+    {
+      degree: t("cv.education.degree3.title"),
+      school: t("cv.education.degree3.school"),
+      period: t("cv.education.degree3.period"),
+      description: t("cv.education.degree3.description"),
+    },
   ]
 
   return (

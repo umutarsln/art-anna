@@ -32,19 +32,19 @@ export function ContactInfo() {
   const socialLinks = [
     {
       icon: Instagram,
-      name: "Instagram",
+      name: t("contact.social.instagram"),
       href: "https://instagram.com/sanatci",
       color: "text-pink-600",
     },
     {
       icon: Linkedin,
-      name: "LinkedIn",
+      name: t("contact.social.linkedin"),
       href: "https://linkedin.com/in/sanatci",
       color: "text-blue-600",
     },
     {
       icon: Mail,
-      name: "Behance",
+      name: t("contact.social.behance"),
       href: "https://behance.net/sanatci",
       color: "text-blue-500",
     },
