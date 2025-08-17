@@ -3,7 +3,7 @@
 import { HeroSection } from "@/components/hero-section"
 import { FeaturedWorks } from "@/components/featured-works"
 import { AboutPreview } from "@/components/about-preview"
-import { LatestPosts } from "@/components/latest-posts"
+import { BentoGrid } from "@/components/bento-grid"
 
 export default function HomePage() {
   return (
@@ -11,7 +11,7 @@ export default function HomePage() {
       <HeroSection />
       <FeaturedWorks />
       <AboutPreview />
-      <LatestPosts />
+      <BentoGrid />
     </div>
   )
 }

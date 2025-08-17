@@ -20,24 +20,24 @@ export function HeroSection() {
   const featuredArtworks = [
     {
       id: 1,
-      title: "Zaman Akışı",
-      year: "2024",
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1920&h=1080&fit=crop",
-      description: "Zamanın akışını ve değişimi yansıtan çağdaş bir eser"
+      title: t("hero.featuredArtworks.artwork1.title"),
+      year: t("hero.featuredArtworks.artwork1.year"),
+      image: "/old/01-domesticated-witch.webp",
+      description: t("hero.featuredArtworks.artwork1.description")
     },
     {
       id: 2,
-      title: "İç Dünya",
-      year: "2023",
-      image: "https://images.pexels.com/photos/1183992/pexels-photo-1183992.jpeg?w=1920&h=1080&fit=crop",
-      description: "İnsan ruhunun derinliklerini keşfeden soyut kompozisyon"
+      title: t("hero.featuredArtworks.artwork2.title"),
+      year: t("hero.featuredArtworks.artwork2.year"),
+      image: "/old/1first-step.webp",
+      description: t("hero.featuredArtworks.artwork2.description")
     },
     {
       id: 3,
-      title: "Doğa Diyalogu",
-      year: "2024",
-      image: "https://images.pixabay.com/photo-2017/08/30/01/05/milky-way-2695569_1280.jpg?w=1920&h=1080&fit=crop",
-      description: "Doğa ile insanlık arasındaki diyalogu anlatan modern tablo"
+      title: t("hero.featuredArtworks.artwork3.title"),
+      year: t("hero.featuredArtworks.artwork3.year"),
+      image: "/old/butterflies.webp",
+      description: t("hero.featuredArtworks.artwork3.description")
     }
   ]
 
@@ -106,7 +106,7 @@ export function HeroSection() {
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.95 }}
           transition={{ duration: 1.2, ease: "easeInOut" }}
-          className="absolute inset-0 flex items-center justify-center"
+          className="absolute inset-0 flex items-center justify-center pt-20"
         >
           <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             {/* Eser Görseli */}
@@ -114,7 +114,7 @@ export function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="relative mb-8"
+              className="relative mb-6"
             >
               <div className="relative aspect-video rounded-2xl overflow-hidden bg-white/10 backdrop-blur-sm border border-white/20 shadow-2xl">
                 <Image
@@ -146,7 +146,7 @@ export function HeroSection() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.8 }}
-              className="space-y-6"
+              className="space-y-4"
             >
               <motion.h1
                 key={`title-${currentSlide}`}
@@ -163,7 +163,7 @@ export function HeroSection() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.1 }}
-                className="text-xl lg:text-2xl text-white/90"
+                className="text-xl lg:text-2xl text-white/90 -mt-2"
               >
                 {featuredArtworks[currentSlide].year}
               </motion.p>
@@ -206,7 +206,7 @@ export function HeroSection() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 }}
-                className="flex justify-center space-x-8 pt-8 border-t border-white/20"
+                className="flex justify-center space-x-8 pt-6 border-t border-white/20"
               >
                 <div>
                   <div className="text-2xl font-bold text-white">150+</div>

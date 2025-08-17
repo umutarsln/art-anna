@@ -32,6 +32,23 @@
         "goToArtwork": "esere git",
         "pauseAutoPlay": "Otomatik geçişi durdur",
         "startAutoPlay": "Otomatik geçişi başlat"
+      },
+      "featuredArtworks": {
+        "artwork1": {
+          "title": "Domesticated Witch",
+          "year": "2024",
+          "description": "Modern dünyada geleneksel büyücülük temasını işleyen dijital sanat eseri"
+        },
+        "artwork2": {
+          "title": "İlk Adım Serisi",
+          "year": "2023",
+          "description": "Sanatsal yolculuğun başlangıç noktasını temsil eden ilk çalışmalar"
+        },
+        "artwork3": {
+          "title": "Kelebek Serisi",
+          "year": "2024",
+          "description": "Doğanın zarafetini ve özgürlüğünü yansıtan kelebek temalı dijital sanat eseri"
+        }
       }
     },
     "home": {
@@ -625,7 +642,31 @@
         "projects": "Projects"
       },
       "workingNow": "Working now",
-      "newProject": "New project"
+      "newProject": "New project",
+      "slider": {
+        "previousArtwork": "Previous artwork",
+        "nextArtwork": "Next artwork",
+        "goToArtwork": "go to artwork",
+        "pauseAutoPlay": "Pause auto-play",
+        "startAutoPlay": "Start auto-play"
+      },
+      "featuredArtworks": {
+        "artwork1": {
+          "title": "Domesticated Witch",
+          "year": "2024",
+          "description": "Digital art piece exploring traditional witchcraft themes in the modern world"
+        },
+        "artwork2": {
+          "title": "First Step Series",
+          "year": "2023",
+          "description": "First works representing the starting point of the artistic journey"
+        },
+        "artwork3": {
+          "title": "Butterfly Series",
+          "year": "2024",
+          "description": "Digital art piece with butterfly theme reflecting the elegance and freedom of nature"
+        }
+      }
     },
     "home": {
       "blog": {
@@ -1218,7 +1259,31 @@
         "projects": "Projekty"
       },
       "workingNow": "Právě pracuje",
-      "newProject": "Nový projekt"
+      "newProject": "Nový projekt",
+      "slider": {
+        "previousArtwork": "Předchozí dílo",
+        "nextArtwork": "Další dílo",
+        "goToArtwork": "přejít na dílo",
+        "pauseAutoPlay": "Pozastavit automatické přehrávání",
+        "startAutoPlay": "Spustit automatické přehrávání"
+      },
+      "featuredArtworks": {
+        "artwork1": {
+          "title": "Domesticated Witch",
+          "year": "2024",
+          "description": "Digitální umělecké dílo zkoumající tradiční čarodějnické motivy v moderním světě"
+        },
+        "artwork2": {
+          "title": "První Krok Série",
+          "year": "2023",
+          "description": "První díla představující výchozí bod umělecké cesty"
+        },
+        "artwork3": {
+          "title": "Motýlí Série",
+          "year": "2024",
+          "description": "Digitální umělecké dílo s motivem motýla odrážející eleganci a svobodu přírody"
+        }
+      }
     },
     "home": {
       "blog": {
