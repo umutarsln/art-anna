@@ -97,7 +97,6 @@
     "about": {
       "title": "Hakkımda",
       "subtitle": "Sanat Yolculuğum",
-      "artistStatement": "Çalışmalarımda gerçeklikten hayal gücüne kaçmaya çalışırım, bu da çağdaş dünyaya referanslarla farklı zamanlarda hikaye aracılığıyla buluşur. O kadar iç içe geçmiş bir dünyadır ki, anlaşılmaz hale gelir, olumlu vizyonun bir tür kaybına kadar. Benim için önemli olan gizemli ve hapsolmuş atmosferdir. Bastırılmış duygusallık, hassasiyet ve büyü ön plana çıkar. Bu, duyguları açmak için daha özgür bir alan yaratır. Aynı zamanda, sembollerin belirli bir ironi, abartı ve bir tür büyülü jestle gizlenmiş anlamlarla iç içe geçtiği formal bir oyun vardır.",
       "hero": {
         "greeting": "Merhaba, Ben",
         "artist": "Sanatçı",
@@ -471,7 +470,6 @@
     "about": {
       "title": "About",
       "subtitle": "My Artistic Journey",
-      "artistStatement": "In my work, I try to escape reality into imagination, which meets through the story at different times with references to the contemporary world. It is a world that is so intrinsically intertwined that it becomes unfathomable, to the point where there is a kind of loss of positive vision. What matters to me is the mysterious and trapped atmosphere. Suppressed emotionality, sensitivity, and magic move to the fore. This creates a freer space to open emotions. At the same time, there is a formal game where symbols are intertwined with meanings with a certain irony, an exaggeration, obscured by a kind of magical gesture.",
       "hero": {
         "greeting": "Hello, I'm",
         "artist": "Artist",
@@ -820,7 +818,6 @@
     "about": {
       "title": "O mně",
       "subtitle": "Moje umělecká cesta",
-      "artistStatement": "Ve své práci se snažím uniknout realitě do představivosti, která se setkává příběhem v různých časech s odkazy na současný svět. Je to svět, který je tak vnitřně propletený, že se stává nepochopitelným, až do bodu, kde dochází k jakési ztrátě pozitivní vize. Pro mě je důležitá tajemná a uvězněná atmosféra. Potlačená emocionalita, citlivost a magie se dostávají do popředí. To vytváří svobodnější prostor pro otevírání emocí. Zároveň existuje formální hra, kde se symboly proplétají s významy s určitou ironií, nadsázkou, zastřené jakýmsi magickým gestem.",
       "hero": {
         "greeting": "Ahoj, jsem",
         "artist": "Umělec",
