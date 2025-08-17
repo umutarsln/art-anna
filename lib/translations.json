@@ -77,7 +77,153 @@
         "subtitle": "Belirli bir stil veya konsept için özel eser yaratmak istiyorsanız, projenizi tartışmak için benimle iletişime geçin.",
         "requestProject": "Proje Talep Et",
         "viewPortfolio": "Portföy İncele"
-      }
+      },
+      "artworkInfo": {
+        "year": "Yıl",
+        "technique": "Teknik",
+        "dimensions": "Boyut",
+        "artist": "Sanatçı",
+        "description": "Eser Açıklaması",
+        "tags": "Etiketler",
+        "clickForDetails": "Detaylar için tıklayın"
+      },
+              "actions": {
+          "requestSimilar": "Benzer Eser İste",
+          "contact": "İletişime Geç"
+        },
+        "artworkDescriptions": {
+          "domesticatedWitch1": "Modern dünyada geleneksel büyücülük temasını işleyen dijital sanat eseri. Gerçeklik ve fantazi arasındaki sınırları bulanıklaştıran etkileyici bir kompozisyon.",
+          "domesticatedWitch2": "Geleneksel büyücülük temalarının çağdaş yorumu. Sihir ve gerçekliğin iç içe geçtiği, detaylarla zenginleştirilmiş dijital sanat eseri.",
+          "firstStep1": "Sanatsal yolculuğun başlangıç noktasını temsil eden ilk çalışmalardan biri. Saf yaratıcılık ve deneme arzusunun yansıdığı eser.",
+          "firstStep2": "Sanatsal gelişimin ikinci aşamasını gösteren çalışma. Teknik becerilerin gelişmeye başladığı dönemin önemli bir örneği.",
+          "firstStep3": "Sanatsal yolculukta üçüncü kilometre taşı. Kompozisyon ve renk kullanımında belirgin ilerleme gösteren eser.",
+          "firstStep4": "Sanatsal gelişimin dördüncü aşaması. Daha karmaşık teknikler ve gelişmiş kompozisyon anlayışının yansıdığı çalışma.",
+          "firstStep5": "Sanatsal yolculukta beşinci önemli dönüm noktası. Kişisel tarzın belirginleşmeye başladığı ve özgünlüğün ön plana çıktığı eser.",
+          "butterflies1": "Doğanın zarafetini ve özgürlüğünü yansıtan kelebek temalı dijital sanat eseri. Renklerin uyumu ve hareket hissi veren kompozisyon.",
+          "butterflies2": "Kelebek temasının ikinci yorumu. Farklı bir perspektif ve renk paletiyle yaratılan, doğanın güzelliğini kutlayan eser.",
+          "bird": "Minimalist yaklaşımla yaratılan kuş silüeti. Basit ama etkili kompozisyonla özgürlük ve uçuş temasını işleyen eser.",
+          "horseBlackWhite": "Güç ve zarafeti bir arada yansıtan at portresi. Siyah beyaz teknikle yaratılan, duygusal derinliği olan etkileyici eser.",
+          "horseWhite": "Saf beyaz atın zarafetini ve güzelliğini yansıtan dijital sanat eseri. Temiz kompozisyon ve minimal yaklaşımla yaratılan etkileyici portre.",
+          "horseSoft": "Yumuşak çizgiler ve pastel renklerle yaratılan at portresi. Duygusal ve nazik bir yaklaşımla işlenen, huzur veren eser.",
+          "children": "Masumiyet ve neşeyi yansıtan çocuk portresi. Duygusal derinliği olan, izleyiciyi etkileyen etkileyici bir eser.",
+          "antalyaSunset": "Antalya'nın etkileyici gün batımı manzarası. Doğanın en güzel anlarından birini yakalayan, atmosferik ve etkileyici fotoğraf.",
+          "antalyaSunset1": "Antalya gün batımının yakın plan detayı. Işık ve renk oyunlarının en güzel örneklerinden biri olan etkileyici fotoğraf.",
+          "artSoft": "Yumuşak çizgiler ve nazik renklerle yaratılan soyut sanat eseri. Huzur veren ve meditatif bir atmosfer yaratan etkileyici kompozisyon.",
+          "softWork": "Yumuşak tekniklerle yaratılan, duygusal derinliği olan dijital sanat eseri. İzleyiciyi içine çeken, etkileyici bir kompozisyon.",
+          "shining": "Işık ve parlaklık temasını işleyen, göz alıcı dijital sanat eseri. Enerji dolu ve dinamik bir kompozisyonla yaratılan etkileyici eser.",
+          "cloud": "Bulut temasını işleyen, minimalist yaklaşımla yaratılan dijital sanat eseri. Sakin ve huzur veren atmosferi olan etkileyici kompozisyon.",
+          "portrait1": "Kişisel portre serisinin ilk çalışması. Duygusal derinliği olan, kişisel ifadeyi yansıtan etkileyici portre.",
+          "portrait2": "Kişisel portre serisinin ikinci çalışması. Farklı bir perspektif ve duygusal tonla yaratılan etkileyici portre.",
+          "portrait3": "Kişisel portre serisinin üçüncü çalışması. Yaratıcı yaklaşım ve teknik becerinin birleştiği etkileyici portre.",
+          "portrait4": "Kişisel portre serisinin dördüncü çalışması. Deneysel teknikler ve özgün yaklaşımla yaratılan etkileyici portre.",
+          "portrait5": "Kişisel portre serisinin beşinci çalışması. Gelişmiş teknik beceriler ve olgun sanatsal yaklaşımın yansıdığı etkileyici portre.",
+          "portrait6": "Kişisel portre serisinin altıncı çalışması. Sanatsal olgunluğun ve teknik mükemmelliğin birleştiği etkileyici portre."
+        },
+        "artworkTitles": {
+          "domesticatedWitch1": "Domesticated Witch - Konsept 1",
+          "domesticatedWitch2": "Domesticated Witch - Konsept 2",
+          "firstStep1": "İlk Adım - Seri 1",
+          "firstStep2": "İlk Adım - Seri 2",
+          "firstStep3": "İlk Adım - Seri 3",
+          "firstStep4": "İlk Adım - Seri 4",
+          "firstStep5": "İlk Adım - Seri 5",
+          "butterflies1": "Kelebek Serisi - 1",
+          "butterflies2": "Kelebek Serisi - 2",
+          "bird": "Kuş Silüeti",
+          "horseBlackWhite": "At Serisi - Siyah Beyaz",
+          "horseWhite": "At Serisi - Beyaz",
+          "horseSoft": "At Serisi - Yumuşak",
+          "children": "Çocuk Portresi",
+          "antalyaSunset": "Antalya Gün Batımı",
+          "antalyaSunset1": "Antalya Gün Batımı - Detay",
+          "artSoft": "Yumuşak Sanat",
+          "softWork": "Yumuşak Çalışma",
+          "shining": "Parlak",
+          "cloud": "Bulut",
+          "portrait1": "Portre Serisi - 1",
+          "portrait2": "Portre Serisi - 2",
+          "portrait3": "Portre Serisi - 3",
+          "portrait4": "Portre Serisi - 4",
+          "portrait5": "Portre Serisi - 5",
+          "portrait6": "Portre Serisi - 6"
+        },
+        "artworkTags": {
+          "concept": "Konsept",
+          "witchcraft": "Büyücülük",
+          "fantasy": "Fantazi",
+          "modern": "Modern",
+          "digital": "Dijital",
+          "magic": "Sihir",
+          "contemporary": "Çağdaş",
+          "firstStep": "İlk Adım",
+          "creativity": "Yaratıcılık",
+          "experiment": "Deneme",
+          "beginning": "Başlangıç",
+          "development": "Gelişim",
+          "technical": "Teknik",
+          "secondStage": "İkinci Aşama",
+          "composition": "Kompozisyon",
+          "color": "Renk",
+          "progress": "İlerleme",
+          "thirdStage": "Üçüncü Aşama",
+          "complexTechniques": "Karmaşık Teknikler",
+          "advancedComposition": "Gelişmiş Kompozisyon",
+          "fourthStage": "Dördüncü Aşama",
+          "personalStyle": "Kişisel Tarz",
+          "originality": "Özgünlük",
+          "fifthStage": "Beşinci Aşama",
+          "butterflies": "Kelebek",
+          "nature": "Doğa",
+          "elegance": "Zarafet",
+          "freedom": "Özgürlük",
+          "colorHarmony": "Renk Uyumu",
+          "perspective": "Perspektif",
+          "colorPalette": "Renk Paleti",
+          "beauty": "Güzellik",
+          "bird": "Kuş",
+          "silhouette": "Silüet",
+          "minimalist": "Minimalist",
+          "flight": "Uçuş",
+          "horse": "At",
+          "blackWhite": "Siyah Beyaz",
+          "power": "Güç",
+          "emotionalDepth": "Duygusal Derinlik",
+          "white": "Beyaz",
+          "clean": "Temiz",
+          "minimal": "Minimal",
+          "soft": "Yumuşak",
+          "pastel": "Pastel",
+          "emotional": "Duygusal",
+          "gentle": "Nazik",
+          "peaceful": "Huzur Veren",
+          "child": "Çocuk",
+          "portrait": "Portre",
+          "innocence": "Masumiyet",
+          "joy": "Neşe",
+          "sunset": "Gün Batımı",
+          "landscape": "Manzara",
+          "atmospheric": "Atmosferik",
+          "detail": "Detay",
+          "lightGames": "Işık Oyunları",
+          "abstract": "Soyut",
+          "meditative": "Meditatif",
+          "depth": "Derinlik",
+          "impressive": "Etkileyici",
+          "bright": "Parlak",
+          "energy": "Enerji",
+          "dynamic": "Dinamik",
+          "cloud": "Bulut",
+          "calm": "Sakin",
+          "atmosphere": "Atmosfer",
+          "personal": "Kişisel",
+          "expression": "İfade",
+          "creative": "Yaratıcı",
+          "experimental": "Deneysel",
+          "unique": "Özgün",
+          "advanced": "Gelişmiş",
+          "mature": "Olgun",
+          "perfection": "Mükemmellik"
+        }
     },
     "aboutPreview": {
       "title": "Sanat, Hayatımın",
@@ -131,7 +277,15 @@
         "conceptArtDescription": "Film, oyun ve reklam için konsept sanat tasarımı",
         "uiuxDescription": "Kullanıcı deneyimi ve arayüz tasarımı",
         "threeDDescription": "3D modelleme ve dijital heykel sanatı",
-        "traditionalPaintingDescription": "Yağlı boya, akrilik ve sulu boya teknikleri"
+        "traditionalPaintingDescription": "Yağlı boya, akrilik ve sulu boya teknikleri",
+        "skillLevels": {
+          "digitalIllustration": 95,
+          "photography": 88,
+          "conceptArt": 92,
+          "uiux": 85,
+          "threeDModeling": 78,
+          "traditionalPainting": 90
+        }
       },
       "stats": {
         "title": "Sayılarla Sanatçı",
@@ -153,29 +307,86 @@
       },
       "artistStatement": {
         "title": "Sanatçı Açıklaması",
-        "text": "Çalışmalarımda gerçeklikten hayal gücüne kaçmaya çalışırım, bu da çağdaş dünyaya referanslarla farklı zamanlarda hikaye aracılığıyla buluşur. O kadar iç içe geçmiş bir dünyadır ki, anlaşılmaz hale gelir, olumlu vizyonun bir tür kaybına kadar. Benim için önemli olan gizemli ve hapsolmuş atmosferdir. Bastırılmış duygusallık, hassasiyet ve büyü ön plana çıkar. Bu, duyguları açmak için daha özgür bir alan yaratır. Aynı zamanda, sembollerin belirli bir ironi, abartı ve bir tür büyülü jestle gizlenmiş anlamlarla iç içe geçtiği formal bir oyun vardır."
+        "subtitle": "Sanatsal yaratım sürecimi yönlendiren temel ilkeler ve değerler. Her eserin arkasındaki düşünce yapısı ve yaratıcı motivasyon.",
+        "text": "Çalışmalarımda gerçeklikten hayal gücüne kaçmaya çalışırım, bu da hikaye aracılığıyla çağdaş dünyaya referanslarla farklı zamanlarda buluşur. O kadar iç içe geçmiş bir dünyadır ki, anlaşılmaz hale gelir, olumlu vizyonun bir tür kaybına kadar. Benim için önemli olan gizemli ve hapsolmuş atmosferdir. Bastırılmış duygusallık, hassasiyet ve sihir ön plana çıkar. Bu, duyguları açmak için daha özgür bir alan yaratır. Aynı zamanda, sembollerin belirli bir ironi, abartı ve bir tür sihirli hareketle gizlenmiş anlamlarla iç içe geçtiği resmi bir oyun vardır.",
+        "source": "Artist Statement, 2024"
+      },
+      "creativeProcess": {
+        "title": "Yaratıcı Süreç",
+        "description": "Benim için önemli olan gizemli ve hapsolmuş atmosfer. Bastırılmış duygusallık, hassasiyet ve sihir ön plana çıkıyor. Bu, duyguları açmak için daha özgür bir alan yaratıyor, burada gerçeklik ve hayal arasındaki sınırlar akışkan hale geliyor.",
+        "details": "Aynı zamanda, sembollerin belirli bir ironi, bir abartı ile anlamlarla iç içe geçtiği, bir tür sihirli hareketle gizlenen resmi bir oyun var. Her eser farklı zamansal boyutlar ve çağdaş referanslar arasındaki bir portal haline geliyor.",
+        "cta": "Sanatsal felsefem ve yaratım sürecim hakkında daha fazla bilgi almak ister misiniz?",
+        "actions": {
+          "workshop": "Atölye Ziyareti Planlayın",
+          "interview": "Röportaj Talep Edin"
+        },
+        "sections": {
+          "realityEscape": {
+            "title": "👁️ Gerçeklikten Hayale Kaçış",
+            "description": "Çalışmalarımda gerçeklikten hayale kaçmaya çalışıyorum, bu da hikaye aracılığıyla çağdaş dünyaya referanslarla farklı zamanlarda buluşuyor."
+          },
+          "mysteriousAtmosphere": {
+            "title": "⚡ Gizemli Atmosfer",
+            "description": "Benim için önemli olan gizemli ve hapsolmuş atmosfer. Bastırılmış duygusallık, hassasiyet ve sihir ön plana çıkıyor."
+          },
+          "emotionalFreedom": {
+            "title": "❤️ Duygusal Özgürlük",
+            "description": "Bu, duyguları açmak için daha özgür bir alan yaratıyor, burada semboller belirli bir ironi ve abartı ile anlamlarla iç içe geçiyor."
+          },
+          "magicalExpression": {
+            "title": "✨ Sihirli İfade",
+            "description": "Anlamların bir tür sihirli hareketle gizlendiği, iç içe geçmiş dünyalar yaratan resmi bir oyun var."
+          }
+        }
+      },
+      "artisticVision": {
+        "title": "Sanatsal Vizyon",
+        "description": "Sanatsal vizyonum, o kadar iç içe geçmiş dünyaları keşfediyor ki bunlar anlaşılmaz hale geliyor, olumlu vizyonun bir tür kaybı olduğu noktaya kadar. Bu kasıtlı belirsizlik daha derin duygusal etkileşim için alan yaratıyor.",
+        "details": "Bu yaklaşım aracılığıyla, geleneksel algıyı zorlayan ve izleyicileri gizem ve duygunun birleştiği bir aleme davet eden, anlama ve hissetme için yeni olasılıklar oluşturan eserler yaratmayı amaçlıyorum."
       },
       "timeline": {
         "title": "Sanat Yolculuğum",
+        "subtitle": "Her dönem, sanatsal gelişimimin önemli kilometre taşlarını keşfedin. İnteraktif zaman çizelgesi ile yaratıcı yolculuğumun hikayesini takip edin.",
+        "cta": "Yaratım Yolculuğumu Takip Edin",
+        "description": "Her yeni dönem, her yeni deneyim beni daha da geliştiriyor. Sanatsal evrimimin devam eden hikayesini keşfetmeye devam edin.",
+        "viewCurrent": "Güncel Çalışmaları İncele",
+        "clickForDetails": "Detaylar için tıklayın",
+        "categories": {
+          "beginning": "Başlangıç",
+          "development": "Gelişim",
+          "international": "Uluslararası",
+          "success": "Başarı",
+          "current": "Güncel"
+        },
         "2024": {
           "title": "Freelance Sanatçı",
-          "description": "Bağımsız dijital sanat ve fotoğraf projeleri"
+          "description": "Bağımsız dijital sanat ve fotoğraf projeleri",
+          "icon": "🚀",
+          "details": "Günümüzde çevre bilinci yüksek, sürdürülebilir malzemeler kullanarak eserler üretiyorum. Aynı zamanda genç sanatçılara mentorluk yapıyor ve atölye çalışmaları düzenliyorum."
         },
         "2023": {
           "title": "İlk Sergi",
-          "description": "Yerel galeride ilk kişisel sergi açılışı"
+          "description": "Yerel galeride ilk kişisel sergi açılışı",
+          "icon": "🏆",
+          "details": "Bu prestijli ödül, sanatsal çalışmalarımın tanınması açısından çok önemliydi. Jüri, 'özgün tarz ve tutarlı sanatsal gelişim' gerekçesiyle beni ödüle layık gördü."
         },
         "2022": {
           "title": "Dijital Sanat Eğitimi",
-          "description": "Profesyonel dijital sanat kursları tamamlandı"
+          "description": "Profesyonel dijital sanat kursları tamamlandı",
+          "icon": "🌍",
+          "details": "Bu deneyim sanatsal vizyonumu genişletti. Avrupa sanat geleneği ile kendi kültürel kökenlerimi harmanlama konusunda önemli keşifler yaptım. Bu dönemde 'Kültürler Arası' serisini oluşturdum."
         },
         "2021": {
           "title": "Fotoğrafçılığa Başlangıç",
-          "description": "Fotoğraf sanatına yoğunlaşma dönemi"
+          "description": "Fotoğraf sanatına yoğunlaşma dönemi",
+          "icon": "🌟",
+          "details": "İlk kişisel sergim büyük ilgi gördü. Yerel sanat eleştirmenleri tarafından 'cesur renk kullanımı ve özgün yaklaşım' ile övgü aldı. Bu sergi, sanatsal kariyerimin dönüm noktası oldu."
         },
         "2019": {
           "title": "Sanat Yolculuğu",
-          "description": "Dijital sanat ile tanışma ve ilk çalışmalar"
+          "description": "Dijital sanat ile tanışma ve ilk çalışmalar",
+          "icon": "🎨",
+          "details": "Bu dönemde temel sanat eğitimi aldım ve klasik resim tekniklerini öğrendim. Özellikle portre çalışmaları ve natürmort kompozisyonları üzerinde yoğunlaştım. İlk kişisel sergim için hazırlıklara bu dönemde başladım."
         }
       }
     },
@@ -450,7 +661,153 @@
         "subtitle": "If you want to create a special piece for a specific style or concept, contact me to discuss your project.",
         "requestProject": "Request Project",
         "viewPortfolio": "View Portfolio"
-      }
+      },
+      "artworkInfo": {
+        "year": "Year",
+        "technique": "Technique",
+        "dimensions": "Dimensions",
+        "artist": "Artist",
+        "description": "Artwork Description",
+        "tags": "Tags",
+        "clickForDetails": "Click for details"
+      },
+              "actions": {
+          "requestSimilar": "Request Similar Work",
+          "contact": "Contact"
+        },
+        "artworkDescriptions": {
+          "domesticatedWitch1": "Digital art piece exploring traditional witchcraft themes in the modern world. An impressive composition that blurs the boundaries between reality and fantasy.",
+          "domesticatedWitch2": "Contemporary interpretation of traditional witchcraft themes. A digital art piece enriched with details where magic and reality intertwine.",
+          "firstStep1": "One of the first works representing the starting point of the artistic journey. A piece reflecting pure creativity and the desire to experiment.",
+          "firstStep2": "Work showing the second stage of artistic development. An important example from the period when technical skills began to develop.",
+          "firstStep3": "Third milestone in the artistic journey. A work showing significant progress in composition and color usage.",
+          "firstStep4": "Fourth stage of artistic development. A work reflecting more complex techniques and advanced composition understanding.",
+          "firstStep5": "Fifth important turning point in the artistic journey. A work where personal style begins to emerge and originality comes to the fore.",
+          "butterflies1": "Digital art piece with butterfly theme reflecting the elegance and freedom of nature. A composition with color harmony and movement sensation.",
+          "butterflies2": "Second interpretation of the butterfly theme. A work created with a different perspective and color palette, celebrating the beauty of nature.",
+          "bird": "Bird silhouette created with minimalist approach. A work exploring freedom and flight themes with simple but effective composition.",
+          "horseBlackWhite": "Horse portrait reflecting power and elegance together. An impressive work with emotional depth created with black and white technique.",
+          "horseWhite": "Digital art piece reflecting the elegance and beauty of pure white horse. An impressive portrait created with clean composition and minimal approach.",
+          "horseSoft": "Horse portrait created with soft lines and pastel colors. A peaceful work processed with emotional and gentle approach.",
+          "children": "Child portrait reflecting innocence and joy. An impressive work with emotional depth that affects the viewer.",
+          "antalyaSunset": "Impressive sunset landscape of Antalya. An atmospheric and impressive photograph capturing one of nature's most beautiful moments.",
+          "antalyaSunset1": "Close-up detail of Antalya sunset. An impressive photograph that is one of the most beautiful examples of light and color games.",
+          "artSoft": "Abstract art piece created with soft lines and gentle colors. An impressive composition creating a peaceful and meditative atmosphere.",
+          "softWork": "Digital art piece created with soft techniques, having emotional depth. An impressive composition that draws the viewer in.",
+          "shining": "Eye-catching digital art piece exploring light and brightness themes. An impressive work created with energetic and dynamic composition.",
+          "cloud": "Digital art piece exploring cloud theme, created with minimalist approach. An impressive composition with calm and peaceful atmosphere.",
+          "portrait1": "First work of the personal portrait series. An impressive portrait reflecting personal expression with emotional depth.",
+          "portrait2": "Second work of the personal portrait series. An impressive portrait created with different perspective and emotional tone.",
+          "portrait3": "Third work of the personal portrait series. An impressive portrait combining creative approach and technical skill.",
+          "portrait4": "Fourth work of the personal portrait series. An impressive portrait created with experimental techniques and unique approach.",
+          "portrait5": "Fifth work of the personal portrait series. An impressive portrait reflecting advanced technical skills and mature artistic approach.",
+          "portrait6": "Sixth work of the personal portrait series. An impressive portrait combining artistic maturity and technical perfection."
+        },
+        "artworkTitles": {
+          "domesticatedWitch1": "Domesticated Witch - Concept 1",
+          "domesticatedWitch2": "Domesticated Witch - Concept 2",
+          "firstStep1": "First Step - Series 1",
+          "firstStep2": "First Step - Series 2",
+          "firstStep3": "First Step - Series 3",
+          "firstStep4": "First Step - Series 4",
+          "firstStep5": "First Step - Series 5",
+          "butterflies1": "Butterfly Series - 1",
+          "butterflies2": "Butterfly Series - 2",
+          "bird": "Bird Silhouette",
+          "horseBlackWhite": "Horse Series - Black White",
+          "horseWhite": "Horse Series - White",
+          "horseSoft": "Horse Series - Soft",
+          "children": "Child Portrait",
+          "antalyaSunset": "Antalya Sunset",
+          "antalyaSunset1": "Antalya Sunset - Detail",
+          "artSoft": "Soft Art",
+          "softWork": "Soft Work",
+          "shining": "Shining",
+          "cloud": "Cloud",
+          "portrait1": "Portrait Series - 1",
+          "portrait2": "Portrait Series - 2",
+          "portrait3": "Portrait Series - 3",
+          "portrait4": "Portrait Series - 4",
+          "portrait5": "Portrait Series - 5",
+          "portrait6": "Portrait Series - 6"
+        },
+        "artworkTags": {
+          "concept": "Concept",
+          "witchcraft": "Witchcraft",
+          "fantasy": "Fantasy",
+          "modern": "Modern",
+          "digital": "Digital",
+          "magic": "Magic",
+          "contemporary": "Contemporary",
+          "firstStep": "First Step",
+          "creativity": "Creativity",
+          "experiment": "Experiment",
+          "beginning": "Beginning",
+          "development": "Development",
+          "technical": "Technical",
+          "secondStage": "Second Stage",
+          "composition": "Composition",
+          "color": "Color",
+          "progress": "Progress",
+          "thirdStage": "Third Stage",
+          "complexTechniques": "Complex Techniques",
+          "advancedComposition": "Advanced Composition",
+          "fourthStage": "Fourth Stage",
+          "personalStyle": "Personal Style",
+          "originality": "Originality",
+          "fifthStage": "Fifth Stage",
+          "butterflies": "Butterflies",
+          "nature": "Nature",
+          "elegance": "Elegance",
+          "freedom": "Freedom",
+          "colorHarmony": "Color Harmony",
+          "perspective": "Perspective",
+          "colorPalette": "Color Palette",
+          "beauty": "Beauty",
+          "bird": "Bird",
+          "silhouette": "Silhouette",
+          "minimalist": "Minimalist",
+          "flight": "Flight",
+          "horse": "Horse",
+          "blackWhite": "Black White",
+          "power": "Power",
+          "emotionalDepth": "Emotional Depth",
+          "white": "White",
+          "clean": "Clean",
+          "minimal": "Minimal",
+          "soft": "Soft",
+          "pastel": "Pastel",
+          "emotional": "Emotional",
+          "gentle": "Gentle",
+          "peaceful": "Peaceful",
+          "child": "Child",
+          "portrait": "Portrait",
+          "innocence": "Innocence",
+          "joy": "Joy",
+          "sunset": "Sunset",
+          "landscape": "Landscape",
+          "atmospheric": "Atmospheric",
+          "detail": "Detail",
+          "lightGames": "Light Games",
+          "abstract": "Abstract",
+          "meditative": "Meditative",
+          "depth": "Depth",
+          "impressive": "Impressive",
+          "bright": "Bright",
+          "energy": "Energy",
+          "dynamic": "Dynamic",
+          "cloud": "Cloud",
+          "calm": "Calm",
+          "atmosphere": "Atmosphere",
+          "personal": "Personal",
+          "expression": "Expression",
+          "creative": "Creative",
+          "experimental": "Experimental",
+          "unique": "Unique",
+          "advanced": "Advanced",
+          "mature": "Mature",
+          "perfection": "Perfection"
+        }
     },
     "aboutPreview": {
       "title": "Art is an",
@@ -489,7 +846,30 @@
         "conceptArt": "Concept Art",
         "uiux": "UI/UX Design",
         "threeD": "3D Modeling",
-        "workspaceAlt": "Workspace"
+        "workspaceAlt": "Workspace",
+        "expertiseAreas": "Areas of Expertise",
+        "continueLearning": "Continue Learning New Techniques",
+        "continueLearningText": "I continuously develop myself by following developments in art technologies.",
+        "viewTechnicalDetails": "View Technical Details",
+        "digital": "Digital",
+        "traditional": "Traditional",
+        "concept": "Concept",
+        "threeDModeling": "3D",
+        "traditionalPainting": "Traditional Painting",
+        "digitalIllustrationDescription": "Professional illustration and concept art with digital tools",
+        "photographyDescription": "Portrait, landscape and artistic photography techniques",
+        "conceptArtDescription": "Concept art design for film, game and advertising",
+        "uiuxDescription": "User experience and interface design",
+        "threeDDescription": "3D modeling and digital sculpture art",
+        "traditionalPaintingDescription": "Oil paint, acrylic and watercolor techniques",
+        "skillLevels": {
+          "digitalIllustration": 95,
+          "photography": 88,
+          "conceptArt": 92,
+          "uiux": 85,
+          "threeDModeling": 78,
+          "traditionalPainting": 90
+        }
       },
       "stats": {
         "title": "Artist by Numbers",
@@ -511,29 +891,86 @@
       },
       "artistStatement": {
         "title": "Artist Statement",
-        "text": "In my work, I try to escape reality into imagination, which meets through the story at different times with references to the contemporary world. It is a world that is so intrinsically intertwined that it becomes unfathomable, to the point where there is a kind of loss of positive vision. What matters to me is the mysterious and trapped atmosphere. Suppressed emotionality, sensitivity, and magic move to the fore. This creates a freer space to open emotions. At the same time, there is a formal game where symbols are intertwined with meanings with a certain irony, an exaggeration, obscured by a kind of magical gesture."
+        "subtitle": "The fundamental principles and values that guide my artistic creative process. The thought structure and creative motivation behind each work.",
+        "text": "In my work, I try to escape reality into imagination, which meets through the story at different times with references to the contemporary world. It is a world that is so intrinsically intertwined that it becomes unfathomable, to the point where there is a kind of loss of positive vision. What matters to me is the mysterious and trapped atmosphere. Suppressed emotionality, sensitivity, and magic move to the fore. This creates a freer space to open emotions. At the same time, there is a formal game where symbols are intertwined with meanings with a certain irony, an exaggeration, obscured by a kind of magical gesture.",
+        "source": "Artist Statement, 2024"
+      },
+      "creativeProcess": {
+        "title": "Creative Process",
+        "description": "What matters to me is the mysterious and trapped atmosphere. Suppressed emotionality, sensitivity, and magic come to the fore. This creates a freer space to open emotions, where the boundaries between reality and imagination become fluid.",
+        "details": "At the same time, there is a formal game where symbols intertwine with meanings with a certain irony, an exaggeration, hidden by a kind of magical movement. Each work becomes a portal between different temporal dimensions and contemporary references.",
+        "cta": "Would you like to learn more about my artistic philosophy and creative process?",
+        "actions": {
+          "workshop": "Schedule Studio Visit",
+          "interview": "Request Interview"
+        },
+        "sections": {
+          "realityEscape": {
+            "title": "👁️ Escape from Reality to Imagination",
+            "description": "In my work, I try to escape from reality to imagination, which meets the contemporary world through stories with references at different times."
+          },
+          "mysteriousAtmosphere": {
+            "title": "⚡ Mysterious Atmosphere",
+            "description": "What matters to me is the mysterious and trapped atmosphere. Suppressed emotionality, sensitivity, and magic come to the fore."
+          },
+          "emotionalFreedom": {
+            "title": "❤️ Emotional Freedom",
+            "description": "This creates a freer space to open emotions, where symbols intertwine with meanings through a certain irony and exaggeration."
+          },
+          "magicalExpression": {
+            "title": "✨ Magical Expression",
+            "description": "There is a formal game that creates intertwined worlds where meanings are hidden by a kind of magical movement."
+          }
+        }
+      },
+      "artisticVision": {
+        "title": "Artistic Vision",
+        "description": "My artistic vision explores worlds so intertwined that they become incomprehensible, to the point where there is a kind of loss of positive vision. This intentional ambiguity creates space for deeper emotional interaction.",
+        "details": "Through this approach, I aim to create works that challenge traditional perception and invite viewers into a realm where mystery and emotion converge, creating new possibilities for understanding and feeling."
       },
       "timeline": {
         "title": "My Artistic Journey",
+        "subtitle": "Discover the important milestones of my artistic development in each period. Follow the story of my creative journey with an interactive timeline.",
+        "cta": "Follow My Creative Journey",
+        "description": "Every new period, every new experience develops me further. Continue to discover the ongoing story of my artistic evolution.",
+        "viewCurrent": "View Current Works",
+        "clickForDetails": "Click for details",
+        "categories": {
+          "beginning": "Beginning",
+          "development": "Development",
+          "international": "International",
+          "success": "Success",
+          "current": "Current"
+        },
         "2024": {
           "title": "Freelance Artist",
-          "description": "Independent digital art and photography projects"
+          "description": "Independent digital art and photography projects",
+          "icon": "🚀",
+          "details": "Click for details"
         },
         "2023": {
           "title": "First Exhibition",
-          "description": "First solo exhibition opening at local gallery"
+          "description": "First solo exhibition opening at local gallery",
+          "icon": "🏆",
+          "details": "Click for details"
         },
         "2022": {
           "title": "Digital Art Education",
-          "description": "Completed professional digital art courses"
+          "description": "Completed professional digital art courses",
+          "icon": "🌍",
+          "details": "Click for details"
         },
         "2021": {
           "title": "Photography Start",
-          "description": "Period of focus on photographic art"
+          "description": "Period of focus on photographic art",
+          "icon": "🌟",
+          "details": "Click for details"
         },
         "2019": {
           "title": "Art Journey",
-          "description": "Introduction to digital art and first works"
+          "description": "Introduction to digital art and first works",
+          "icon": "🎨",
+          "details": "Click for details"
         }
       }
     },
@@ -798,7 +1235,153 @@
         "subtitle": "Pokud chcete vytvořit speciální dílo pro konkrétní styl nebo koncept, kontaktujte mě pro diskusi o vašem projektu.",
         "requestProject": "Požádat o projekt",
         "viewPortfolio": "Zobrazit portfolio"
-      }
+      },
+      "artworkInfo": {
+        "year": "Rok",
+        "technique": "Technika",
+        "dimensions": "Rozměry",
+        "artist": "Umělec",
+        "description": "Popis díla",
+        "tags": "Štítky",
+        "clickForDetails": "Klikněte pro detaily"
+      },
+              "actions": {
+          "requestSimilar": "Požádat o podobné dílo",
+          "contact": "Kontakt"
+        },
+        "artworkDescriptions": {
+          "domesticatedWitch1": "Digitální umělecké dílo zkoumající tradiční čarodějnické motivy v moderním světě. Působivá kompozice, která rozmazává hranice mezi realitou a fantazií.",
+          "domesticatedWitch2": "Současná interpretace tradičních čarodějnických motivů. Digitální umělecké dílo obohacené detaily, kde se magie a realita proplétají.",
+          "firstStep1": "Jedno z prvních děl představujících výchozí bod umělecké cesty. Dílo odrážející čistou kreativitu a touhu experimentovat.",
+          "firstStep2": "Práce ukazující druhou fázi uměleckého vývoje. Důležitý příklad z období, kdy se začaly rozvíjet technické dovednosti.",
+          "firstStep3": "Třetí milník na umělecké cestě. Práce ukazující významný pokrok v kompozici a použití barev.",
+          "firstStep4": "Čtvrtá fáze uměleckého vývoje. Práce odrážející složitější techniky a pokročilé porozumění kompozici.",
+          "firstStep5": "Pátý důležitý zlom na umělecké cestě. Dílo, kde se osobní styl začíná objevovat a originalita vystupuje do popředí.",
+          "butterflies1": "Digitální umělecké dílo s motivem motýla odrážející eleganci a svobodu přírody. Kompozice s harmonií barev a pocitem pohybu.",
+          "butterflies2": "Druhá interpretace motivu motýla. Dílo vytvořené s jinou perspektivou a barevnou paletou, oslavující krásu přírody.",
+          "bird": "Silueta ptáka vytvořená minimalistickým přístupem. Dílo zkoumající motivy svobody a letu s jednoduchou, ale účinnou kompozicí.",
+          "horseBlackWhite": "Portrét koně odrážející sílu a eleganci dohromady. Působivé dílo s emocionální hloubkou vytvořené černobílou technikou.",
+          "horseWhite": "Digitální umělecké dílo odrážející eleganci a krásu čistě bílého koně. Působivý portrét vytvořený s čistou kompozicí a minimálním přístupem.",
+          "horseSoft": "Portrét koně vytvořený jemnými liniemi a pastelovými barvami. Klidné dílo zpracované s emocionálním a jemným přístupem.",
+          "children": "Portrét dítěte odrážející nevinnost a radost. Působivé dílo s emocionální hloubkou, které ovlivňuje diváka.",
+          "antalyaSunset": "Působivá západ slunce krajina Antalye. Atmosférická a působivá fotografie zachycující jeden z nejkrásnějších okamžiků přírody.",
+          "antalyaSunset1": "Detail západu slunce v Antalyi zblízka. Působivá fotografie, která je jedním z nejkrásnějších příkladů her světla a barev.",
+          "artSoft": "Abstraktní umělecké dílo vytvořené jemnými liniemi a jemnými barvami. Působivá kompozice vytvářející klidnou a meditativní atmosféru.",
+          "softWork": "Digitální umělecké dílo vytvořené jemnými technikami s emocionální hloubkou. Působivá kompozice, která diváka vtahuje.",
+          "shining": "Oku upoutávající digitální umělecké dílo zkoumající motivy světla a jasnosti. Působivé dílo vytvořené energickou a dynamickou kompozicí.",
+          "cloud": "Digitální umělecké dílo zkoumající motiv mraku, vytvořené minimalistickým přístupem. Působivá kompozice s klidnou a pokojnou atmosférou.",
+          "portrait1": "První práce osobní portrétní série. Působivý portrét odrážející osobní výraz s emocionální hloubkou.",
+          "portrait2": "Druhá práce osobní portrétní série. Působivý portrét vytvořený s jinou perspektivou a emocionálním tónem.",
+          "portrait3": "Třetí práce osobní portrétní série. Působivý portrét kombinující kreativní přístup a technickou dovednost.",
+          "portrait4": "Čtvrtá práce osobní portrétní série. Působivý portrét vytvořený experimentálními technikami a jedinečným přístupem.",
+          "portrait5": "Pátá práce osobní portrétní série. Působivý portrét odrážející pokročilé technické dovednosti a zralý umělecký přístup.",
+          "portrait6": "Šestá práce osobní portrétní série. Působivý portrét kombinující uměleckou zralost a technickou dokonalost."
+        },
+        "artworkTitles": {
+          "domesticatedWitch1": "Domesticated Witch - Koncept 1",
+          "domesticatedWitch2": "Domesticated Witch - Koncept 2",
+          "firstStep1": "První Krok - Série 1",
+          "firstStep2": "První Krok - Série 2",
+          "firstStep3": "První Krok - Série 3",
+          "firstStep4": "První Krok - Série 4",
+          "firstStep5": "První Krok - Série 5",
+          "butterflies1": "Motýlí Série - 1",
+          "butterflies2": "Motýlí Série - 2",
+          "bird": "Ptačí Silueta",
+          "horseBlackWhite": "Koňská Série - Černá Bílá",
+          "horseWhite": "Koňská Série - Bílá",
+          "horseSoft": "Koňská Série - Jemná",
+          "children": "Dětský Portrét",
+          "antalyaSunset": "Antalya Západ Slunce",
+          "antalyaSunset1": "Antalya Západ Slunce - Detail",
+          "artSoft": "Jemné Umění",
+          "softWork": "Jemná Práce",
+          "shining": "Zářící",
+          "cloud": "Mrak",
+          "portrait1": "Portrétní Série - 1",
+          "portrait2": "Portrétní Série - 2",
+          "portrait3": "Portrétní Série - 3",
+          "portrait4": "Portrétní Série - 4",
+          "portrait5": "Portrétní Série - 5",
+          "portrait6": "Portrétní Série - 6"
+        },
+        "artworkTags": {
+          "concept": "Koncept",
+          "witchcraft": "Čarodějnictví",
+          "fantasy": "Fantazie",
+          "modern": "Moderní",
+          "digital": "Digitální",
+          "magic": "Magie",
+          "contemporary": "Současný",
+          "firstStep": "První Krok",
+          "creativity": "Kreativita",
+          "experiment": "Experiment",
+          "beginning": "Začátek",
+          "development": "Vývoj",
+          "technical": "Technický",
+          "secondStage": "Druhá Fáze",
+          "composition": "Kompozice",
+          "color": "Barva",
+          "progress": "Pokrok",
+          "thirdStage": "Třetí Fáze",
+          "complexTechniques": "Složité Techniky",
+          "advancedComposition": "Pokročilá Kompozice",
+          "fourthStage": "Čtvrtá Fáze",
+          "personalStyle": "Osobní Styl",
+          "originality": "Originalita",
+          "fifthStage": "Pátá Fáze",
+          "butterflies": "Motýli",
+          "nature": "Příroda",
+          "elegance": "Elegance",
+          "freedom": "Svoboda",
+          "colorHarmony": "Harmonie Barev",
+          "perspective": "Perspektiva",
+          "colorPalette": "Barevná Paleta",
+          "beauty": "Krása",
+          "bird": "Pták",
+          "silhouette": "Silueta",
+          "minimalist": "Minimalistický",
+          "flight": "Let",
+          "horse": "Kůň",
+          "blackWhite": "Černá Bílá",
+          "power": "Síla",
+          "emotionalDepth": "Emocionální Hloubka",
+          "white": "Bílá",
+          "clean": "Čistá",
+          "minimal": "Minimální",
+          "soft": "Jemná",
+          "pastel": "Pastelová",
+          "emotional": "Emocionální",
+          "gentle": "Jemná",
+          "peaceful": "Klidná",
+          "child": "Dítě",
+          "portrait": "Portrét",
+          "innocence": "Nevinnost",
+          "joy": "Radost",
+          "sunset": "Západ Slunce",
+          "landscape": "Krajina",
+          "atmospheric": "Atmosférická",
+          "detail": "Detail",
+          "lightGames": "Hry Světla",
+          "abstract": "Abstraktní",
+          "meditative": "Meditativní",
+          "depth": "Hloubka",
+          "impressive": "Působivé",
+          "bright": "Zářící",
+          "energy": "Energie",
+          "dynamic": "Dynamické",
+          "cloud": "Mrak",
+          "calm": "Klid",
+          "atmosphere": "Atmosféra",
+          "personal": "Osobní",
+          "expression": "Výraz",
+          "creative": "Kreativní",
+          "experimental": "Experimentální",
+          "unique": "Jedinečné",
+          "advanced": "Pokročilé",
+          "mature": "Zralé",
+          "perfection": "Dokonalost"
+        }
     },
     "aboutPreview": {
       "title": "Umění je",
@@ -837,7 +1420,30 @@
         "conceptArt": "Koncepční umění",
         "uiux": "UI/UX design",
         "threeD": "3D modelování",
-        "workspaceAlt": "Pracovní prostor"
+        "workspaceAlt": "Pracovní prostor",
+        "expertiseAreas": "Oblasti odbornosti",
+        "continueLearning": "Pokračovat v učení nových technik",
+        "continueLearningText": "Neustále se rozvíjím sledováním vývojů v uměleckých technologiích.",
+        "viewTechnicalDetails": "Zobrazit technické detaily",
+        "digital": "Digitální",
+        "traditional": "Tradiční",
+        "concept": "Koncepční",
+        "threeDModeling": "3D",
+        "traditionalPainting": "Tradiční malba",
+        "digitalIllustrationDescription": "Profesionální ilustrace a koncepční umění s digitálními nástroji",
+        "photographyDescription": "Portrétní, krajinářská a umělecká fotografická technika",
+        "conceptArtDescription": "Koncepční umělecký design pro film, hry a reklamu",
+        "uiuxDescription": "Uživatelská zkušenost a design rozhraní",
+        "threeDDescription": "3D modelování a digitální sochařské umění",
+        "traditionalPaintingDescription": "Olejová, akrylová a akvarelová technika",
+        "skillLevels": {
+          "digitalIllustration": 95,
+          "photography": 88,
+          "conceptArt": 92,
+          "uiux": 85,
+          "threeDModeling": 78,
+          "traditionalPainting": 90
+        }
       },
       "stats": {
         "title": "Umělec v číslech",
@@ -859,10 +1465,57 @@
       },
       "artistStatement": {
         "title": "Umělecké vyjádření",
-        "text": "Ve své práci se snažím uniknout realitě do představivosti, která se setkává příběhem v různých časech s odkazy na současný svět. Je to svět, který je tak vnitřně propletený, že se stává nepochopitelným, až do bodu, kde dochází k jakési ztrátě pozitivní vize. Pro mě je důležitá tajemná a uvězněná atmosféra. Potlačená emocionalita, citlivost a magie se dostávají do popředí. To vytváří svobodnější prostor pro otevírání emocí. Zároveň existuje formální hra, kde se symboly proplétají s významy s určitou ironií, nadsázkou, zastřené jakýmsi magickým gestem."
+        "subtitle": "Základní principy a hodnoty, které vedou můj umělecký tvůrčí proces. Myšlenková struktura a tvůrčí motivace za každým dílem.",
+        "text": "Ve své práci se snažím uniknout realitě do představivosti, která se setkává příběhem v různých časech s odkazy na současný svět. Je to svět, který je tak vnitřně propletený, že se stává nepochopitelným, až do bodu, kde dochází k jakési ztrátě pozitivní vize. Pro mě je důležitá tajemná a uvězněná atmosféra. Potlačená emocionalita, citlivost a magie se dostávají do popředı. To vytváří svobodnější prostor pro otevírání emocí. Zároveň existuje formální hra, kde se symboly proplétají s významy s určitou ironií, nadsázkou, zastřené jakýmsi magickým gestem.",
+        "source": "Artist Statement, 2024"
+      },
+      "creativeProcess": {
+        "title": "Tvůrčí Proces",
+        "description": "Pro mě je důležitá tajemná a uvězněná atmosféra. Potlačená emocionalita, citlivost a magie se dostávají do popředí. To vytváří svobodnější prostor pro otevírání emocí, kde se hranice mezi realitou a představivostí stávají tekutými.",
+        "details": "Zároveň existuje formální hra, kde se symboly proplétají s významy s určitou ironií, nadsázkou, skryté jakýmsi magickým pohybem. Každé dílo se stává portálem mezi různými časovými dimenzemi a současnými odkazy.",
+        "cta": "Chtěli byste se dozvědět více o mé umělecké filozofii a tvůrčím procesu?",
+        "actions": {
+          "workshop": "Naplánovat Návštěvu Ateliéru",
+          "interview": "Požádat o Rozhovor"
+        },
+        "sections": {
+          "realityEscape": {
+            "title": "👁️ Únik z Reality do Představivosti",
+            "description": "Ve své práci se snažím uniknout z reality do představivosti, která se setkává se současným světem prostřednictvím příběhů s odkazy v různých časech."
+          },
+          "mysteriousAtmosphere": {
+            "title": "⚡ Tajemná Atmosféra",
+            "description": "Pro mě je důležitá tajemná a uvězněná atmosféra. Potlačená emocionalita, citlivost a magie se dostávají do popředí."
+          },
+          "emotionalFreedom": {
+            "title": "❤️ Emocionální Svoboda",
+            "description": "To vytváří svobodnější prostor pro otevírání emocí, kde se symboly proplétají s významy prostřednictvím určité ironie a nadsázky."
+          },
+          "magicalExpression": {
+            "title": "✨ Magické Vyjádření",
+            "description": "Existuje formální hra, která vytváří propletené světy, kde jsou významy skryty jakýmsi magickým pohybem."
+          }
+        }
+      },
+      "artisticVision": {
+        "title": "Umělecká Vize",
+        "description": "Má umělecká vize zkoumá světy tak propletené, že se stávají nepochopitelnými, až do bodu, kde dochází k jakési ztrátě pozitivní vize. Tato záměrná nejasnost vytváří prostor pro hlubší emocionální interakci.",
+        "details": "Prostřednictvím tohoto přístupu se snažím vytvářet díla, která zpochybňují tradiční vnímání a zvou diváky do říše, kde se mystérium a emoce sbíhají, vytvářejíce nové možnosti pro porozumění a cítění."
       },
       "timeline": {
         "title": "Moje umělecká cesta",
+        "subtitle": "Objevte důležité milníky mého uměleckého vývoje v každém období. Sledujte příběh mé tvůrčí cesty s interaktivní časovou osou.",
+        "cta": "Sledujte Mou Tvůrčí Cestu",
+        "description": "Každé nové období, každá nová zkušenost mě dále rozvíjí. Pokračujte v objevování pokračujícího příběhu mé umělecké evoluce.",
+        "viewCurrent": "Zobrazit Současná Díla",
+        "clickForDetails": "Klikněte pro detaily",
+        "categories": {
+          "beginning": "Začátek",
+          "development": "Vývoj",
+          "international": "Mezinárodní",
+          "success": "Úspěch",
+          "current": "Současnost"
+        },
         "2024": {
           "title": "Nezávislý umělec",
           "description": "Nezávislé projekty digitálního umění a fotografie"

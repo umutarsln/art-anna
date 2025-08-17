@@ -70,8 +70,8 @@ export function GalleryGrid({ artworks, viewMode, onArtworkClick }: GalleryGridP
                 <div className="text-sm text-blue-600 font-medium mb-2">
                   {getCategoryLabel(artwork.category)}
                 </div>
-                <h3 className="font-serif text-xl font-semibold text-gray-900 mb-2">{artwork.title}</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">{artwork.description}</p>
+                <h3 className="font-serif text-xl font-semibold text-gray-900 mb-2">{t(`gallery.artworkTitles.${artwork.title}`)}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{t(`gallery.artworkDescriptions.${artwork.description}`)}</p>
               </div>
             </motion.div>
           </AnimatedCard>

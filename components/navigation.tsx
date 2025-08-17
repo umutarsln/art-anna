@@ -35,7 +35,7 @@ export function Navigation() {
     { href: "/", label: t("navigation.home") },
     { href: "/about", label: t("navigation.about") },
     { href: "/gallery", label: t("navigation.gallery") },
-    { href: "/blog", label: t("navigation.blog") },
+    //{ href: "/blog", label: t("navigation.blog") },
     { href: "/contact", label: t("navigation.contact") },
     { href: "/cv", label: t("navigation.cv") },
   ]

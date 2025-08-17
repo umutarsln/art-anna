@@ -13,26 +13,26 @@ export function AboutArtistStatementSection() {
     {
       id: 1,
       icon: "👁️",
-      title: "Gerçeklikten Hayale Kaçış",
-      description: "Çalışmalarımda gerçeklikten hayale kaçmaya çalışıyorum, bu da hikaye aracılığıyla çağdaş dünyaya referanslarla farklı zamanlarda buluşuyor."
+      title: t("about.creativeProcess.sections.realityEscape.title"),
+      description: t("about.creativeProcess.sections.realityEscape.description")
     },
     {
       id: 2,
       icon: "⚡",
-      title: "Gizemli Atmosfer",
-      description: "Benim için önemli olan gizemli ve hapsolmuş atmosfer. Bastırılmış duygusallık, hassasiyet ve sihir ön plana çıkıyor."
+      title: t("about.creativeProcess.sections.mysteriousAtmosphere.title"),
+      description: t("about.creativeProcess.sections.mysteriousAtmosphere.description")
     },
     {
       id: 3,
       icon: "❤️",
-      title: "Duygusal Özgürlük",
-      description: "Bu, duyguları açmak için daha özgür bir alan yaratıyor, burada semboller belirli bir ironi ve abartı ile anlamlarla iç içe geçiyor."
+      title: t("about.creativeProcess.sections.emotionalFreedom.title"),
+      description: t("about.creativeProcess.sections.emotionalFreedom.description")
     },
     {
       id: 4,
       icon: "✨",
-      title: "Sihirli İfade",
-      description: "Anlamların bir tür sihirli hareketle gizlendiği, iç içe geçmiş dünyalar yaratan resmi bir oyun var."
+      title: t("about.creativeProcess.sections.magicalExpression.title"),
+      description: t("about.creativeProcess.sections.magicalExpression.description")
     }
   ]
 
@@ -46,8 +46,7 @@ export function AboutArtistStatementSection() {
             </h2>
             <div className="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
             <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-              Sanatsal yaratım sürecimi yönlendiren temel ilkeler ve değerler. 
-              Her eserin arkasındaki düşünce yapısı ve yaratıcı motivasyon.
+              {t("about.artistStatement.subtitle")}
             </p>
           </div>
         </TextReveal>
@@ -62,7 +61,7 @@ export function AboutArtistStatementSection() {
               <div className="flex items-center justify-center space-x-4">
                 <div className="w-16 h-0.5 bg-blue-600"></div>
                 <cite className="font-body text-gray-600">
-                  Artist Statement, 2024
+                  {t("about.artistStatement.source")}
                 </cite>
                 <div className="w-16 h-0.5 bg-blue-600"></div>
               </div>
@@ -99,17 +98,13 @@ export function AboutArtistStatementSection() {
             <TextReveal delay={0.4}>
               <div className="space-y-6">
                 <h3 className="font-serif text-2xl font-semibold text-gray-900">
-                  Yaratıcı Süreç
+                  {t("about.creativeProcess.title")}
                 </h3>
                 <p className="font-body text-gray-600 leading-relaxed">
-                  Benim için önemli olan gizemli ve hapsolmuş atmosfer. Bastırılmış duygusallık, 
-                  hassasiyet ve sihir ön plana çıkıyor. Bu, duyguları açmak için daha özgür bir 
-                  alan yaratıyor, burada gerçeklik ve hayal arasındaki sınırlar akışkan hale geliyor.
+                  {t("about.creativeProcess.description")}
                 </p>
                 <p className="font-body text-gray-600 leading-relaxed">
-                  Aynı zamanda, sembollerin belirli bir ironi, bir abartı ile anlamlarla iç içe 
-                  geçtiği, bir tür sihirli hareketle gizlenen resmi bir oyun var. Her eser farklı 
-                  zamansal boyutlar ve çağdaş referanslar arasında bir portal haline geliyor.
+                  {t("about.creativeProcess.details")}
                 </p>
               </div>
             </TextReveal>
@@ -117,17 +112,13 @@ export function AboutArtistStatementSection() {
             <TextReveal delay={0.5}>
               <div className="space-y-6">
                 <h3 className="font-serif text-2xl font-semibold text-gray-900">
-                  Sanatsal Vizyon
+                  {t("about.artisticVision.title")}
                 </h3>
                 <p className="font-body text-gray-600 leading-relaxed">
-                  Sanatsal vizyonum, o kadar iç içe geçmiş dünyaları keşfediyor ki bunlar 
-                  anlaşılmaz hale geliyor, olumlu vizyonun bir tür kaybı olduğu noktaya kadar. 
-                  Bu kasıtlı belirsizlik daha derin duygusal etkileşim için alan yaratıyor.
+                  {t("about.artisticVision.description")}
                 </p>
                 <p className="font-body text-gray-600 leading-relaxed">
-                  Bu yaklaşım aracılığıyla, geleneksel algıyı zorlayan ve izleyicileri gizem 
-                  ve duygunun birleştiği bir aleme davet eden, anlama ve hissetme için yeni 
-                  olasılıklar oluşturan eserler yaratmayı amaçlıyorum.
+                  {t("about.artisticVision.details")}
                 </p>
               </div>
             </TextReveal>
@@ -138,14 +129,14 @@ export function AboutArtistStatementSection() {
         <TextReveal delay={0.6}>
           <div className="text-center mt-16 pt-12 border-t border-gray-200">
             <p className="font-body text-gray-600 mb-6">
-              Sanatsal felsefem ve yaratım sürecim hakkında daha fazla bilgi almak ister misiniz?
+              {t("about.creativeProcess.cta")}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="px-8 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 hover:scale-105 transition-all duration-300">
-                Atölye Ziyareti Planlayın
+                {t("about.creativeProcess.actions.workshop")}
               </button>
               <button className="px-8 py-3 border border-gray-300 text-gray-700 rounded-lg font-medium hover:bg-gray-50 hover:scale-105 transition-all duration-300">
-                Röportaj Talep Edin
+                {t("about.creativeProcess.actions.interview")}
               </button>
             </div>
           </div>

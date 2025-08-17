@@ -6,10 +6,10 @@ import Image from "next/image"
 import { FloatingElements } from "@/components/ui/floating-elements"
 import { galleryImages, type GalleryImage } from "@/lib/gallery-images"
 import { ArtworkModal } from "@/components/gallery/artwork-modal"
-import { useLanguage } from "@/contexts/language-context"
+import { useLanguageStore } from "@/lib/store"
 
 export default function GalleryPage() {
-  const { t } = useLanguage()
+  const { t } = useLanguageStore()
   const [selectedCategory, setSelectedCategory] = useState("all")
   const [selectedArtwork, setSelectedArtwork] = useState<GalleryImage | null>(null)
   const [artworks] = useState<GalleryImage[]>(galleryImages)
@@ -114,7 +114,7 @@ export default function GalleryPage() {
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                           <h3 className="font-serif text-xl font-semibold mb-2">
-                            {artwork.title}
+                            {t(`gallery.artworkTitles.${artwork.title}`)}
                           </h3>
                           <div className="flex items-center justify-between text-sm">
                             <span>{artwork.dimensions}</span>
@@ -143,8 +143,8 @@ export default function GalleryPage() {
                   {/* Artwork Info */}
                   <div className="mt-4 space-y-2">
                     <div className="flex items-center justify-between">
-                      <h3 className="font-serif text-lg font-semibold text-gray-900">
-                        {artwork.title}
+                                                                <h3 className="font-serif text-lg font-semibold text-gray-900">
+                        {t(`gallery.artworkTitles.${artwork.title}`)}
                       </h3>
                       <span className="text-sm text-blue-600 font-medium">
                         {artwork.year}
@@ -157,7 +157,7 @@ export default function GalleryPage() {
                     </div>
                     {artwork.description && (
                       <p className="text-sm text-gray-500 leading-relaxed line-clamp-2">
-                        {artwork.description}
+                        {t(`gallery.artworkDescriptions.${artwork.description}`)}
                       </p>
                     )}
                   </div>

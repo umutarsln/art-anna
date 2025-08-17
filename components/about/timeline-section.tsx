@@ -18,8 +18,8 @@ export function AboutTimelineSection() {
       year: "2019",
       title: t("about.timeline.2019.title"),
       description: t("about.timeline.2019.description"),
-      category: "Başlangıç",
-      details: "Bu dönemde temel sanat eğitimi aldım ve klasik resim tekniklerini öğrendim. Özellikle portre çalışmaları ve natürmort kompozisyonları üzerinde yoğunlaştım. İlk kişisel sergim için hazırlıklara bu dönemde başladım.",
+      category: t("about.timeline.categories.beginning"),
+      details: t("about.timeline.2019.details"),
       icon: "🎨",
       color: "bg-blue-100 text-blue-800"
     },
@@ -28,8 +28,8 @@ export function AboutTimelineSection() {
       year: "2021",
       title: t("about.timeline.2021.title"),
       description: t("about.timeline.2021.description"),
-      category: "Gelişim",
-      details: "İlk kişisel sergim büyük ilgi gördü. Yerel sanat eleştirmenleri tarafından 'cesur renk kullanımı ve özgün yaklaşım' ile övgü aldı. Bu sergi, sanatsal kariyerimin dönüm noktası oldu.",
+      category: t("about.timeline.categories.development"),
+      details: t("about.timeline.2021.details"),
       icon: "🌟",
       color: "bg-green-100 text-green-800"
     },
@@ -38,8 +38,8 @@ export function AboutTimelineSection() {
       year: "2022",
       title: t("about.timeline.2022.title"),
       description: t("about.timeline.2022.description"),
-      category: "Uluslararası",
-      details: "Bu deneyim sanatsal vizyonumu genişletti. Avrupa sanat geleneği ile kendi kültürel kökenlerimi harmanlama konusunda önemli keşifler yaptım. Bu dönemde 'Kültürler Arası' serisini oluşturdum.",
+      category: t("about.timeline.categories.international"),
+      details: t("about.timeline.2022.details"),
       icon: "🌍",
       color: "bg-purple-100 text-purple-800"
     },
@@ -48,8 +48,8 @@ export function AboutTimelineSection() {
       year: "2023",
       title: t("about.timeline.2023.title"),
       description: t("about.timeline.2023.description"),
-      category: "Başarı",
-      details: "Bu prestijli ödül, sanatsal çalışmalarımın tanınması açısından çok önemliydi. Jüri, 'özgün tarz ve tutarlı sanatsal gelişim' gerekçesiyle beni ödüle layık gördü.",
+      category: t("about.timeline.categories.success"),
+      details: t("about.timeline.2023.details"),
       icon: "🏆",
       color: "bg-yellow-100 text-yellow-800"
     },
@@ -58,19 +58,19 @@ export function AboutTimelineSection() {
       year: "2024",
       title: t("about.timeline.2024.title"),
       description: t("about.timeline.2024.description"),
-      category: "Güncel",
-      details: "Günümüzde çevre bilinci yüksek, sürdürülebilir malzemeler kullanarak eserler üretiyorum. Aynı zamanda genç sanatçılara mentorluk yapıyor ve atölye çalışmaları düzenliyorum.",
+      category: t("about.timeline.categories.current"),
+      details: t("about.timeline.2024.details"),
       icon: "🚀",
       color: "bg-red-100 text-red-800"
     }
   ]
 
   const categoryColors = {
-    "Başlangıç": "bg-blue-100 text-blue-800",
-    "Gelişim": "bg-green-100 text-green-800",
-    "Uluslararası": "bg-purple-100 text-purple-800",
-    "Başarı": "bg-yellow-100 text-yellow-800",
-    "Güncel": "bg-red-100 text-red-800"
+    [t("about.timeline.categories.beginning")]: "bg-blue-100 text-blue-800",
+    [t("about.timeline.categories.development")]: "bg-green-100 text-green-800",
+    [t("about.timeline.categories.international")]: "bg-purple-100 text-purple-800",
+    [t("about.timeline.categories.success")]: "bg-yellow-100 text-yellow-800",
+    [t("about.timeline.categories.current")]: "bg-red-100 text-red-800"
   }
 
   return (
@@ -83,8 +83,7 @@ export function AboutTimelineSection() {
             </h2>
             <div className="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
             <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-              Her dönem, sanatsal gelişimimin önemli kilometre taşlarını keşfedin. 
-              İnteraktif zaman çizelgesi ile yaratıcı yolculuğumun hikayesini takip edin.
+              {t("about.timeline.subtitle")}
             </p>
           </div>
         </TextReveal>
@@ -153,7 +152,7 @@ export function AboutTimelineSection() {
 
                       <div className="flex items-center justify-between mt-4">
                         <span className="font-body text-xs text-gray-500">
-                          Detaylar için tıklayın
+                          {t("about.timeline.clickForDetails")}
                         </span>
                         <svg 
                           className={`w-5 h-5 text-blue-600 transition-transform duration-300 ${
@@ -185,14 +184,13 @@ export function AboutTimelineSection() {
         <TextReveal delay={0.8}>
           <div className="text-center mt-16 pt-12 border-t border-gray-200">
             <h3 className="font-serif text-2xl font-semibold text-gray-900 mb-4">
-              Yaratım Yolculuğumu Takip Edin
+              {t("about.timeline.cta")}
             </h3>
             <p className="font-body text-gray-600 mb-6 max-w-xl mx-auto">
-              Her yeni dönem, her yeni deneyim beni daha da geliştiriyor. 
-              Sanatsal evrimimin devam eden hikayesini keşfetmeye devam edin.
+              {t("about.timeline.description")}
             </p>
             <button className="px-8 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 hover:scale-105 transition-all duration-300">
-              Güncel Çalışmaları İncele
+              {t("about.timeline.viewCurrent")}
             </button>
           </div>
         </TextReveal>

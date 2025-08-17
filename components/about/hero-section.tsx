@@ -22,7 +22,7 @@ export function AboutHeroSection() {
               <div className="relative">
                 <div className="aspect-[4/5] overflow-hidden rounded-2xl bg-gray-100">
                   <Image 
-                    src="/images/artist-portrait.png" 
+                    src="/about.webp" 
                     alt={t("about.hero.portraitAlt")} 
                     fill 
                     className="object-cover" 

@@ -76,7 +76,7 @@ export function ArtworkModal({ artwork, onClose }: ArtworkModalProps) {
 
               {/* Title */}
               <h2 className="font-serif text-3xl font-bold text-gray-900">
-                {artwork.title}
+                {t(`gallery.artworkTitles.${artwork.title}`)}
               </h2>
 
               {/* Meta Information */}
@@ -84,28 +84,28 @@ export function ArtworkModal({ artwork, onClose }: ArtworkModalProps) {
                 <div className="flex items-center gap-2">
                   <Calendar className="h-4 w-4 text-gray-500" />
                   <div>
-                    <div className="text-xs text-gray-500">Yıl</div>
+                    <div className="text-xs text-gray-500">{t("gallery.artworkInfo.year")}</div>
                     <div className="font-medium text-gray-900">{artwork.year}</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-2">
                   <Palette className="h-4 w-4 text-gray-500" />
                   <div>
-                    <div className="text-xs text-gray-500">Teknik</div>
+                    <div className="text-xs text-gray-500">{t("gallery.artworkInfo.technique")}</div>
                     <div className="font-medium text-gray-900">{artwork.medium}</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-2">
                   <Ruler className="h-4 w-4 text-gray-500" />
                   <div>
-                    <div className="text-xs text-gray-500">Boyut</div>
+                    <div className="text-xs text-gray-500">{t("gallery.artworkInfo.dimensions")}</div>
                     <div className="font-medium text-gray-900">{artwork.dimensions}</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-2">
                   <User className="h-4 w-4 text-gray-500" />
                   <div>
-                    <div className="text-xs text-gray-500">Sanatçı</div>
+                    <div className="text-xs text-gray-500">{t("gallery.artworkInfo.artist")}</div>
                     <div className="font-medium text-gray-900">{artwork.artist}</div>
                   </div>
                 </div>
@@ -114,27 +114,27 @@ export function ArtworkModal({ artwork, onClose }: ArtworkModalProps) {
               {/* Full Description */}
               <div>
                 <h3 className="font-serif text-lg font-semibold text-gray-900 mb-3">
-                  Eser Açıklaması
+                  {t("gallery.artworkInfo.description")}
                 </h3>
                 <p className="text-gray-600 leading-relaxed text-base">
-                  {artwork.description}
+                  {t(`gallery.artworkDescriptions.${artwork.description}`)}
                 </p>
               </div>
 
               {/* Tags */}
               {artwork.tags && artwork.tags.length > 0 && (
-                <div>
-                  <h3 className="font-serif text-lg font-semibold text-gray-900 mb-3">
-                    Etiketler
-                  </h3>
+                              <div>
+                <h3 className="font-serif text-lg font-semibold text-gray-900 mb-3">
+                  {t("gallery.artworkInfo.tags")}
+                </h3>
                   <div className="flex flex-wrap gap-2">
                     {artwork.tags.map((tag, index) => (
-                      <span
-                        key={index}
-                        className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm"
-                      >
-                        {tag}
-                      </span>
+                                              <span
+                          key={index}
+                          className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm"
+                        >
+                          {t(`gallery.artworkTags.${tag}`)}
+                        </span>
                     ))}
                   </div>
                 </div>
@@ -143,12 +143,12 @@ export function ArtworkModal({ artwork, onClose }: ArtworkModalProps) {
               {/* Call to Action */}
               <div className="pt-4 border-t border-gray-200">
                 <div className="flex flex-col sm:flex-row gap-3">
-                  <button className="px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors">
-                    Benzer Eser İste
-                  </button>
-                  <button className="px-6 py-3 border border-gray-300 text-gray-700 rounded-lg font-medium hover:bg-gray-50 transition-colors">
-                    İletişime Geç
-                  </button>
+                                  <button className="px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors">
+                  {t("gallery.actions.requestSimilar")}
+                </button>
+                <button className="px-6 py-3 border border-gray-300 text-gray-700 rounded-lg font-medium hover:bg-gray-50 transition-colors">
+                  {t("gallery.actions.contact")}
+                </button>
                 </div>
               </div>
             </div>
